@@ -189,7 +189,7 @@ body::before {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-image: url("https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/posts/avatar/yun-dark.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/avatar/yun-dark.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
