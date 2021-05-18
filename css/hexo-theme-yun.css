@@ -1755,7 +1755,7 @@ input {
   left: 0;
   width: 20rem;
   background-color: #fff;
-  background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn@master/img/bg/alpha-stars-timing-1.webp");
+  background-image: url("https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/avatar/alpha-stars-timing-1.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom 1rem center;
@@ -2101,7 +2101,7 @@ input {
     color: var(--hty-text-color);
   }
   :root:not([data-user-color-scheme]) body::before {
-    background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/avatar/galaxy.jpg");
   }
   :root:not([data-user-color-scheme]) .char {
     background-color: rgba(0,0,0,0.5);
@@ -2177,7 +2177,7 @@ input {
   color: var(--hty-text-color);
 }
 [data-user-color-scheme='dark'] body::before {
-  background-image: url("https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/galaxy.jpg");
+  background-image: url("https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/avatar/galaxy.jpg");
 }
 [data-user-color-scheme='dark'] .char {
   background-color: rgba(0,0,0,0.5);
