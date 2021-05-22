@@ -5,8 +5,8 @@
     
     <entry>
       <title>关于图床搭建的一些笔记</title>
-      <link href="2021/github+jsdeliver+picgo+snipaste+typora/"/>
-      <url>2021/github+jsdeliver+picgo+snipaste+typora/</url>
+      <link href="2021/%E5%9B%BE%E5%BA%8A/"/>
+      <url>2021/%E5%9B%BE%E5%BA%8A/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>图床是图片存放的地址，用来节省服务器的资源，变相的提升网站加载速度。</p><ol><li><p>利用jsdelivr的cdn加速github仓库</p></li><li><p>用typora编辑markdown文件</p></li><li><p>用picgo上传图片</p></li><li><p>用snipaste截图</p></li></ol><p>这样就得到了一个访问速度快，且免费，空间无限的一个图床。</p></blockquote>]]></content>
       
@@ -95,11 +95,11 @@
       
         <tags>
             
-            <tag> 笔记 </tag>
-            
             <tag> 语法 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
@@ -124,38 +124,13 @@
       
         <tags>
             
-            <tag> 笔记 </tag>
-            
             <tag> 语法 </tag>
             
             <tag> 命令 </tag>
             
+            <tag> 笔记 </tag>
+            
             <tag> 后端 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于我想去做做志愿者却没做的事</title>
-      <link href="2021/%E5%BF%97%E6%84%BF%E8%80%85/"/>
-      <url>2021/%E5%BF%97%E6%84%BF%E8%80%85/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>主要还是怕环境太脏,灰尘那种到不算什么,就是怕蜘蛛网以及虫子泛滥.其次就是感觉人们是为了志愿者而立的活动,而不是为了那些需要帮助的人,他们仿佛就是那些志愿者的娱乐设施,为他们做志愿而存在,真的是令人作呕.</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 日记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 日记 </tag>
             
         </tags>
       
@@ -191,11 +166,11 @@
     
     
     <entry>
-      <title>关于我在比心做陪玩这件事</title>
-      <link href="2021/%E6%AF%94%E5%BF%83/"/>
-      <url>2021/%E6%AF%94%E5%BF%83/</url>
+      <title>关于我想去做做志愿者却没做的事</title>
+      <link href="2021/%E5%BF%97%E6%84%BF%E8%80%85/"/>
+      <url>2021/%E5%BF%97%E6%84%BF%E8%80%85/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>事情是这样的，寒假无聊，孩子我又缺钱，于是就去比心接接单，刚开通技能的第一天只接到一单，还是为拼多多帮砍一刀= =。但是第二天就好起来了，虽然大部分是集市单，不过聊胜于无嘛。因为只有三个月前的记录，所以截的评论的图，这是最初的几个老板，感谢第一个小姐姐，可以说那把我很紧张给她坑输了，但是她人美心善，还给了我好评。<br><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/bixin1.jpg" loading="lazy"><br>因为新人嘛，平台给的流量多，后面接单就容易了，都不需要我去抢单厅和跳单厅了。再次感谢下面几位大佬。<br><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/bixin2.jpg" loading="lazy"><br>所以说王者荣耀是社交游戏，lol是竞技游戏嘛，王者荣耀的老板都是些女的，lol老板都是些男的，至于steam…..压根没人点，我也没看到其他人的steam技能图有几个是超过两位数的= =<br><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/bixin3.jpg" loading="lazy"><br>印象最深的一位老板是一位补课老师，男的…给我下了接近一百单，也不给好评也不给差评，我有其他老板跟他时间冲突了他就让给别人。我俩双排胜率都没50%吧，毕竟打得局星数蛮高的，也不知道为什么输他还一直点我陪他打。后面的故事…后面的故事就是他消失了，emmm，我们也没加过任何联系方式，就默默的失联了，他比心估计也卸了，因为我看他vip标暗了，最近上线时间30天（比心离线时间最多只显示30天）</p><p>还有的印象深刻的老板…不提了（失望不？），因为他们貌似在我的好友列表里= =</p><p>已经几个月没接单了（因为感觉打游戏浪费时间，老有种负罪感）欠单的几个老板我也退钱了，没有跑单，我可真棒= =</p><p>赚钱的事算是告一段落了，说不定以后还有故事呢···哒哒哒（写字声）__________________________________这里留给以后写。</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>主要还是怕环境太脏,灰尘那种到不算什么,就是怕蜘蛛网以及虫子泛滥.其次就是感觉人们是为了志愿者而立的活动,而不是为了那些需要帮助的人,他们仿佛就是那些志愿者的娱乐设施,为他们做志愿而存在,真的是令人作呕.</p>]]></content>
       
       
       <categories>
@@ -208,8 +183,6 @@
         <tags>
             
             <tag> 日记 </tag>
-            
-            <tag> 趣 </tag>
             
         </tags>
       
@@ -245,29 +218,25 @@
     
     
     <entry>
-      <title>关于那些让我感觉很惊艳的诗词</title>
-      <link href="2021/%E8%AF%97%E5%8F%A5/"/>
-      <url>2021/%E8%AF%97%E5%8F%A5/</url>
+      <title>关于我在比心做陪玩这件事</title>
+      <link href="2021/%E6%AF%94%E5%BF%83/"/>
+      <url>2021/%E6%AF%94%E5%BF%83/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>一面情动，<br>两语心安。<br>三缄于口，<br>四海生风。</p></blockquote><blockquote><p>我步步都回头，<br>山是古人眸，<br>柳是纤纤手，<br>遇你之后，<br>步步都难走。</p></blockquote><blockquote><p>江南伞贵，<br>不及你眉眼珍贵。</p></blockquote><blockquote><p>凤兮凤兮归故乡，<br>遨游四海求其凰。</p></blockquote><blockquote><p>最是人间留不住，<br>朱颜辞镜花辞树。</p></blockquote><blockquote><p>一两赠欢喜，<br>二两开生门，<br>三两过酒肉，<br>四两不还乡。</p></blockquote><blockquote><p>锦瑟无端五十弦，<br>一弦一柱思华年。</p></blockquote><blockquote><p>人生若只如初见，<br>何事秋风悲画扇。</p></blockquote><blockquote><p>斯人若彩虹，<br>遇上方知有。</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p>事情是这样的，寒假无聊，孩子我又缺钱，于是就去比心接接单，刚开通技能的第一天只接到一单，还是为拼多多帮砍一刀= =。但是第二天就好起来了，虽然大部分是集市单，不过聊胜于无嘛。因为只有三个月前的记录，所以截的评论的图，这是最初的几个老板，感谢第一个小姐姐，可以说那把我很紧张给她坑输了，但是她人美心善，还给了我好评。<br><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/bixin1.jpg" loading="lazy"><br>因为新人嘛，平台给的流量多，后面接单就容易了，都不需要我去抢单厅和跳单厅了。再次感谢下面几位大佬。<br><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/bixin2.jpg" loading="lazy"><br>所以说王者荣耀是社交游戏，lol是竞技游戏嘛，王者荣耀的老板都是些女的，lol老板都是些男的，至于steam…..压根没人点，我也没看到其他人的steam技能图有几个是超过两位数的= =<br><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/bixin3.jpg" loading="lazy"><br>印象最深的一位老板是一位补课老师，男的…给我下了接近一百单，也不给好评也不给差评，我有其他老板跟他时间冲突了他就让给别人。我俩双排胜率都没50%吧，毕竟打得局星数蛮高的，也不知道为什么输他还一直点我陪他打。后面的故事…后面的故事就是他消失了，emmm，我们也没加过任何联系方式，就默默的失联了，他比心估计也卸了，因为我看他vip标暗了，最近上线时间30天（比心离线时间最多只显示30天）</p><p>还有的印象深刻的老板…不提了（失望不？），因为他们貌似在我的好友列表里= =</p><p>已经几个月没接单了（因为感觉打游戏浪费时间，老有种负罪感）欠单的几个老板我也退钱了，没有跑单，我可真棒= =</p><p>赚钱的事算是告一段落了，说不定以后还有故事呢···哒哒哒（写字声）__________________________________这里留给以后写。</p>]]></content>
       
       
       <categories>
           
-          <category> 文摘 </category>
+          <category> 日记 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 文摘 </tag>
+            <tag> 日记 </tag>
             
-            <tag> 美 </tag>
-            
-            <tag> 善 </tag>
-            
-            <tag> 随笔 </tag>
+            <tag> 趣 </tag>
             
         </tags>
       
@@ -313,6 +282,37 @@
     
     
     <entry>
+      <title>关于那些让我感觉很惊艳的诗词</title>
+      <link href="2021/%E8%AF%97%E5%8F%A5/"/>
+      <url>2021/%E8%AF%97%E5%8F%A5/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>一面情动，<br>两语心安。<br>三缄于口，<br>四海生风。</p></blockquote><blockquote><p>我步步都回头，<br>山是古人眸，<br>柳是纤纤手，<br>遇你之后，<br>步步都难走。</p></blockquote><blockquote><p>江南伞贵，<br>不及你眉眼珍贵。</p></blockquote><blockquote><p>凤兮凤兮归故乡，<br>遨游四海求其凰。</p></blockquote><blockquote><p>最是人间留不住，<br>朱颜辞镜花辞树。</p></blockquote><blockquote><p>一两赠欢喜，<br>二两开生门，<br>三两过酒肉，<br>四两不还乡。</p></blockquote><blockquote><p>锦瑟无端五十弦，<br>一弦一柱思华年。</p></blockquote><blockquote><p>人生若只如初见，<br>何事秋风悲画扇。</p></blockquote><blockquote><p>斯人若彩虹，<br>遇上方知有。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文摘 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 文摘 </tag>
+            
+            <tag> 美 </tag>
+            
+            <tag> 善 </tag>
+            
+            <tag> 随笔 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于linux的一些笔记</title>
       <link href="2021/linux/"/>
       <url>2021/linux/</url>
@@ -329,11 +329,11 @@
       
         <tags>
             
-            <tag> 笔记 </tag>
-            
             <tag> 语法 </tag>
             
             <tag> 命令 </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
