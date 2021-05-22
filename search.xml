@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>关于图床搭建的一些笔记</title>
-      <link href="2021/%E5%9B%BE%E5%BA%8A/"/>
-      <url>2021/%E5%9B%BE%E5%BA%8A/</url>
+      <title>关于本站搭建的一些笔记</title>
+      <link href="2021/%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/"/>
+      <url>2021/%E5%BB%BA%E7%AB%99%E8%BF%87%E7%A8%8B/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>图床是图片存放的地址，用来节省服务器的资源，变相的提升网站加载速度。</p><ol><li><p>利用jsdelivr的cdn加速github仓库</p></li><li><p>用typora编辑markdown文件</p></li><li><p>用picgo上传图片</p></li><li><p>用snipaste截图</p></li></ol><p>这样就得到了一个访问速度快，且免费，空间无限的一个图床。</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>建站工具用的是hexo,选用的yun主题</p></blockquote><blockquote><p>图床是图片存放的地址，用来节省服务器的资源，变相的提升网站加载速度。</p><ol><li><p>利用jsdelivr的cdn加速github仓库</p></li><li><p>用typora编辑markdown文件</p></li><li><p>用picgo上传图片</p></li><li><p>用snipaste截图</p></li></ol><p>这样就得到了一个访问速度快，且免费，空间无限的一个图床。</p></blockquote>]]></content>
       
       
       <categories>
@@ -79,66 +79,6 @@
     
     
     <entry>
-      <title>关于markdown的一些笔记</title>
-      <link href="2021/markdown/"/>
-      <url>2021/markdown/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote><h4 id="Markdown是什么？"><a href="#Markdown是什么？" class="headerlink" title="Markdown是什么？"></a>Markdown<em>是什么</em>？</h4><h4 id="谁创造了它？"><a href="#谁创造了它？" class="headerlink" title="谁创造了它？"></a><em>谁</em>创造了它？</h4><h4 id="为什么要使用它？"><a href="#为什么要使用它？" class="headerlink" title="为什么要使用它？"></a><em>为什么</em>要使用它？</h4><h4 id="怎么使用？"><a href="#怎么使用？" class="headerlink" title="怎么使用？"></a><em>怎么</em>使用？</h4><h4 id="谁在用？"><a href="#谁在用？" class="headerlink" title="谁在用？"></a><em>谁</em>在用？</h4><h4 id="尝试一下"><a href="#尝试一下" class="headerlink" title="尝试一下"></a>尝试一下</h4></blockquote><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="1-Markdown是什么？"><a href="#1-Markdown是什么？" class="headerlink" title="1. Markdown是什么？"></a>1. Markdown<em>是什么</em>？</h3><p><strong>Markdown</strong>是一种轻量级<strong>标记语言</strong>，它以纯文本形式(<em>易读、易写、易更改</em>)编写文档，并最终以HTML格式发布。<br><strong>Markdown</strong>也可以理解为将以MARKDOWN语法编写的语言转换成HTML内容的工具。    </p><h3 id="2-谁创造了它？"><a href="#2-谁创造了它？" class="headerlink" title="2. 谁创造了它？"></a>2. <em>谁</em>创造了它？</h3><p>它由<a href="http://www.aaronsw.com/"><strong>Aaron Swartz</strong></a>和<strong>John Gruber</strong>共同设计，<strong>Aaron Swartz</strong>就是那位于去年（<em>2013年1月11日</em>）自杀,有着<strong>开挂</strong>一般人生经历的程序员。维基百科对他的<a href="http://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8">介绍</a>是：<strong>软件工程师、作家、政治组织者、互联网活动家、维基百科人</strong>。    </p><p>他有着足以让你跪拜的人生经历：    </p><ul><li><strong>14岁</strong>参与RSS 1.0规格标准的制订。     </li><li><strong>2004</strong>年入读<strong>斯坦福</strong>，之后退学。   </li><li><strong>2005</strong>年创建<a href="http://infogami.org/">Infogami</a>，之后与<a href="http://www.reddit.com/">Reddit</a>合并成为其合伙人。   </li><li><strong>2010</strong>年创立求进会（Demand Progress），积极参与禁止网络盗版法案（SOPA）活动，最终该提案被撤回。   </li><li><strong>2011</strong>年7月19日，因被控从MIT和JSTOR下载480万篇学术论文并以免费形式上传于网络被捕。     </li><li><strong>2013</strong>年1月自杀身亡。    </li></ul><p>天才都有早逝的归途。</p><h3 id="3-为什么要使用它？"><a href="#3-为什么要使用它？" class="headerlink" title="3. 为什么要使用它？"></a>3. <em>为什么</em>要使用它？</h3><ul><li>它是易读（看起来舒服）、易写（语法简单）、易更改<strong>纯文本</strong>。处处体现着<strong>极简主义</strong>的影子。</li><li>兼容HTML，可以转换为HTML格式发布。</li><li>跨平台使用。</li><li>越来越多的网站支持Markdown。</li><li>更方便清晰地组织你的电子邮件。（Markdown-here, Airmail）</li><li>摆脱Word（我不是认真的）。</li></ul><h3 id="4-怎么使用？"><a href="#4-怎么使用？" class="headerlink" title="4. 怎么使用？"></a>4. <em>怎么</em>使用？</h3><p>如果不算<strong>扩展</strong>，Markdown的语法绝对<strong>简单</strong>到让你爱不释手。</p><p>Markdown语法主要分为如下几大部分：<br><strong>标题</strong>，<strong>段落</strong>，<strong>区块引用</strong>，<strong>代码区块</strong>，<strong>强调</strong>，<strong>列表</strong>，<strong>分割线</strong>，<strong>链接</strong>，<strong>图片</strong>，**反斜杠 <code>\</code><strong>，</strong>符号’`’**。</p><h4 id="4-1-标题"><a href="#4-1-标题" class="headerlink" title="4.1 标题"></a>4.1 标题</h4><p>两种形式：<br>1）使用<code>=</code>和<code>-</code>标记一级和二级标题。</p><blockquote><p>一级标题<br><code>=========</code><br>二级标题<br><code>---------</code></p></blockquote><p>效果：</p><blockquote><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题   "></a>一级标题   </h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2></blockquote><p>2）使用<code>#</code>，可表示1-6级标题。</p><blockquote><p># 一级标题<br>## 二级标题<br>### 三级标题<br>#### 四级标题<br>##### 五级标题<br>###### 六级标题    </p></blockquote><p>效果：</p><blockquote><h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote><h4 id="4-2-段落"><a href="#4-2-段落" class="headerlink" title="4.2 段落"></a>4.2 段落</h4><p>段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用<strong>两个以上</strong>空格加上回车（引用中换行省略回车）。</p><h4 id="4-3-区块引用"><a href="#4-3-区块引用" class="headerlink" title="4.3 区块引用"></a>4.3 区块引用</h4><p>在段落的每行或者只在第一行使用符号<code>&gt;</code>,还可使用多个嵌套引用，如：</p><blockquote><p>&gt; 区块引用<br>&gt;&gt; 嵌套引用  </p></blockquote><p>效果：</p><blockquote><p>区块引用  </p><blockquote><p>嵌套引用</p></blockquote></blockquote><h4 id="4-4-代码区块"><a href="#4-4-代码区块" class="headerlink" title="4.4 代码区块"></a>4.4 代码区块</h4><p>代码区块的建立是在每行加上4个空格或者一个制表符（如同写代码一样）。如<br>普通段落：</p><p>void main()<br>{<br>    printf(“Hello, Markdown.”);<br>}    </p><p>代码区块：</p><pre><code>void main()&#123;    printf(&quot;Hello, Markdown.&quot;);&#125;</code></pre><p><strong>注意</strong>:需要和普通段落之间存在空行。</p><h4 id="4-5-强调"><a href="#4-5-强调" class="headerlink" title="4.5 强调"></a>4.5 强调</h4><p>在强调内容两侧分别加上<code>*</code>或者<code>_</code>，如：</p><blockquote><p>*斜体*，_斜体_<br>**粗体**，__粗体__</p></blockquote><p>效果：</p><blockquote><p><em>斜体</em>，<em>斜体</em><br><strong>粗体</strong>，<strong>粗体</strong></p></blockquote><h4 id="4-6-列表"><a href="#4-6-列表" class="headerlink" title="4.6 列表"></a>4.6 列表</h4><p>使用<code>·</code>、<code>+</code>、或<code>-</code>标记无序列表，如：</p><blockquote><p>-（+*） 第一项<br>-（+*） 第二项<br>- （+*）第三项</p></blockquote><p><strong>注意</strong>：标记后面最少有一个_空格_或_制表符_。若不在引用区块中，必须和前方段落之间存在空行。</p><p>效果：</p><blockquote><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul></blockquote><p>有序列表的标记方式是将上述的符号换成数字,并辅以<code>.</code>，如：</p><blockquote><p>1 . 第一项<br>2 . 第二项<br>3 . 第三项    </p></blockquote><p>效果：</p><blockquote><ol><li>第一项</li><li>第二项</li><li>第三项</li></ol></blockquote><h4 id="4-7-分割线"><a href="#4-7-分割线" class="headerlink" title="4.7 分割线"></a>4.7 分割线</h4><p>分割线最常使用就是三个或以上<code>*</code>，还可以使用<code>-</code>和<code>_</code>。</p><h4 id="4-8-链接"><a href="#4-8-链接" class="headerlink" title="4.8 链接"></a>4.8 链接</h4><p>链接可以由两种形式生成：<strong>行内式</strong>和<strong>参考式</strong>。<br><strong>行内式</strong>：</p><blockquote><p>[younghz的Markdown库](https:://github.com/younghz/Markdown “Markdown”)。</p></blockquote><p>效果：</p><blockquote><p><a href="https:://github.com/younghz/Markdown" title="Markdown">younghz的Markdown库</a>。</p></blockquote><p><strong>参考式</strong>：</p><blockquote><p>[younghz的Markdown库1][1]<br>[younghz的Markdown库2][2]<br>[1]:https:://github.com/younghz/Markdown “Markdown”<br>[2]:https:://github.com/younghz/Markdown “Markdown”    </p></blockquote><p>效果：</p><blockquote><p><a href="https:://github.com/younghz/Markdown" title="Markdown">younghz的Markdown库1</a><br><a href="https:://github.com/younghz/Markdown" title="Markdown">younghz的Markdown库2</a></p></blockquote><p><strong>注意</strong>：上述的<code>[1]:https:://github.com/younghz/Markdown &quot;Markdown&quot;</code>不出现在区块中。</p><h4 id="4-9-图片"><a href="#4-9-图片" class="headerlink" title="4.9 图片"></a>4.9 图片</h4><p>添加图片的形式和链接相似，只需在链接的基础上前方加一个<code>！</code>。</p><h4 id="4-10-反斜杠"><a href="#4-10-反斜杠" class="headerlink" title="4.10 反斜杠\"></a>4.10 反斜杠<code>\</code></h4><p>相当于<strong>反转义</strong>作用。使符号成为普通符号。</p><h4 id="4-11-符号’-’"><a href="#4-11-符号’-’" class="headerlink" title="4.11 符号’`’"></a>4.11 符号’`’</h4><p>起到标记作用。如：</p><blockquote><p>`ctrl+a`</p></blockquote><p>效果：</p><blockquote><p><code>ctrl+a</code>    </p></blockquote><h4 id="5-谁在用？"><a href="#5-谁在用？" class="headerlink" title="5. 谁在用？"></a>5. <em>谁</em>在用？</h4><p>Markdown的使用者：</p><ul><li>GitHub</li><li>简书</li><li>Stack Overflow</li><li>Apollo</li><li>Moodle</li><li>Reddit</li><li>等等</li></ul><h4 id="6-尝试一下"><a href="#6-尝试一下" class="headerlink" title="6. 尝试一下"></a>6. 尝试一下</h4><ul><li><strong>Chrome</strong>下的插件诸如<code>stackedit</code>与<code>markdown-here</code>等非常方便，也不用担心平台受限。</li><li><strong>在线</strong>的dillinger.io评价也不错   </li><li><strong>Windowns</strong>下的MarkdownPad也用过，不过免费版的体验不是很好。    </li><li><strong>Mac</strong>下的Mou是国人贡献的，口碑很好。</li><li><strong>Linux</strong>下的ReText不错。    </li></ul><p><strong>当然，最终境界永远都是笔下是语法，心中格式化 :)。</strong></p><hr><p><strong>注意</strong>：不同的Markdown解释器或工具对相应语法（扩展语法）的解释效果不尽相同，具体可参见工具的使用说明。<br>虽然有人想出面搞一个所谓的标准化的Markdown，[没想到还惹怒了健在的创始人John Gruber]<br>(<a href="http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/">http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/</a> )。</p><hr><p>以上基本是所有traditonal markdown的语法。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 语法 </tag>
-            
-            <tag> 命令 </tag>
-            
-            <tag> 笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于python的一些笔记</title>
-      <link href="2021/python/"/>
-      <url>2021/python/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><a href="https://baike.baidu.com/item/Python/407313?fr=aladdin">Python</a> is a high-level scripting language that combines interpretability, compilation, interactivity and object-oriented.</p><h2 id="random"><a href="#random" class="headerlink" title="random"></a>random</h2><pre class="line-numbers language-none"><code class="language-none">import randomlength &#x3D; random.randint(1, 10)print(&#39;--------他的长短---------&#39;)guess &#x3D; int(input(&quot;他多长?&quot;))if guess &#x3D;&#x3D; length:        print(&quot;你怎么知道.&quot;)        print(&quot;你是不是见过.&quot;)else:        while guess !&#x3D; length:                temp &#x3D; input(&quot;再试一次.&quot;)                guess &#x3D; int(temp)                if guess &gt; length:                        print(&quot;他没那么长&quot;)                elif guess &lt; length:                        print(&quot;他没那么短&quot;)                else:                        print(&quot;你怎么知道&quot;)                        print(&quot;你是不是见过&quot;)print(&quot;结束.&quot;)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><pre class="line-numbers language-none"><code class="language-none">单行注释:#多行注释&#39;&#39;&#39; &#39;&#39;&#39;特殊注释#!&#x2F;usr&#x2F;bin&#x2F;env python3;#--coding&#x3D;utf-8--<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><h3 id="1"><a href="#1" class="headerlink" title="1"></a>1</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/jibenshujuleixing.jpg" loading="lazy"><p>introduction:type()方法可以查看类型</p><h3 id="2"><a href="#2" class="headerlink" title="2"></a>2</h3><pre class="line-numbers language-none"><code class="language-none">#变量的命名规则 #变量必须以字母(a-z,A-2)或下划线()开头 #其他字符可以是字母,数字或 #变量区分大小写 #Python关键字不能用作变量名 #变量的命名不能以数来开头 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="符号"><a href="#符号" class="headerlink" title="符号"></a>符号</h2><h3 id="1-1"><a href="#1-1" class="headerlink" title="1"></a>1</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/suanshuyunsuanfu.jpg" loading="lazy"><h3 id="2-1"><a href="#2-1" class="headerlink" title="2"></a>2</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/bijiaoyunsuanfu.jpg" loading="lazy"><h3 id="3"><a href="#3" class="headerlink" title="3"></a>3</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/luojiyunsuanfu.jpg" loading="lazy"><p>优先级:( )、not、and、or</p><h3 id="4"><a href="#4" class="headerlink" title="4"></a>4</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/fuzhiyunsuanfu.jpg" loading="lazy"><p>introduction:算术运算的一个补充</p><h3 id="5"><a href="#5" class="headerlink" title="5"></a>5</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/geshihuafuhao.jpg" loading="lazy"><h2 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h2><pre class="line-numbers language-none"><code class="language-none">name&#x3D;&#39;废物&#39;classPro&#x3D;&#39;垃圾场一号垃圾坑二号桶&#39;age&#x3D;1print(&#39;我叫%s\n来自%s\n现在%d岁&#39;%(name,classPro,age))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:%可换成{}和.format<br>moreinfo:python中提供了input方法来获取键盘输入<br>note:input接收的键血输入结果都是str类型的、如果接收数字类型需要将str转成int </p><h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><h3 id="1-2"><a href="#1-2" class="headerlink" title="1"></a>1</h3><p>流程:就是计算机执行代码的顺序<br>流程控制:对计算机代码执行的顺序进行有效的管理,只有流程控制才能实现在开发当中的业务 </p><p>流程控制的分类<br>顺序流程:就是代码一种自上而下的执行结构,也是 python默认的<br>选择流程/分支流程:根据在某一步的判断,有选择的去执行相应的逻辑的一种结构|<br>循环流程:满足一定的条件下,一直重复的去执行某段代码的逻辑[事情]</p><h3 id="2-2"><a href="#2-2" class="headerlink" title="2"></a>2</h3><p>if…<br>if…else<br>if…elif…else</p><h2 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h2><h3 id="1-3"><a href="#1-3" class="headerlink" title="1"></a>1</h3><pre class="line-numbers language-none"><code class="language-none">import randomcount &#x3D; 1while count &lt;&#x3D; 3:        person &#x3D; int(input(&#39;出&#39;))        computer &#x3D; random.randint(0, 2)        print(computer)        if person &#x3D;&#x3D; computer:                print(&#39;平&#39;)        elif person &#x3D;&#x3D; 0 and computer &#x3D;&#x3D; 1 or person &#x3D;&#x3D; 1 and computer &#x3D;&#x3D; 2 or person &#x3D;&#x3D; 2 and computer &#x3D;&#x3D; 0:                print(&#39;赢&#39;)        else:                print(&#39;输&#39;)        count +&#x3D; 1print(&#39;结束&#39;)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:数字和数字比较,不能随意给字符串赋值;缩进;random必须在while内部.</p><h3 id="2-3"><a href="#2-3" class="headerlink" title="2"></a>2</h3><pre class="line-numbers language-none"><code class="language-none">i&#x3D;1while i&lt;&#x3D;9:        j&#x3D;1        while j&lt;&#x3D;i:                print(&quot;%d*%d&#x3D;%d\t&quot;%(i,j,i*j),end&#x3D;&quot; &quot;)                j+&#x3D;1        print()        i+&#x3D;1<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:缩进;\t意思是空格;end=’ ‘意思是末尾不换行，加空格</p><h3 id="3-1"><a href="#3-1" class="headerlink" title="3"></a>3</h3><pre class="line-numbers language-none"><code class="language-none">i&#x3D;1while i&lt;&#x3D;9:        j&#x3D;1        while j&lt;&#x3D;9-i:                print(&quot; &quot;,end&#x3D;&quot;&quot;)        j+&#x3D;1        k&#x3D;1        while k&lt;&#x3D;2*i-1:                print(&#39;*&#39;,end&#x3D;&#39;&#39;)        k+&#x3D;1        print()        i+&#x3D;1<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>instruction:直角空格;等腰三角*</p><h2 id="range"><a href="#range" class="headerlink" title="range"></a>range</h2><h3 id="1-4"><a href="#1-4" class="headerlink" title="1"></a>1</h3><pre class="line-numbers language-none"><code class="language-none">tags&#x3D;&#39;我是一个废物&#39;for item in tags:print(item)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>introduction:字符串类型本身就是一个字符类型的集合</p><h3 id="2-4"><a href="#2-4" class="headerlink" title="2"></a>2</h3><pre class="line-numbers language-none"><code class="language-none">sum&#x3D;0for data in range(1,101):#左边包含，右边不包含        sum+&#x3D;data #求累加和print(sum)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:<br>range函数可以生成一个数据集合列表<br>range(start,end,scan)<br>start默认为0<br>scan默认为1且不能为0</p><h3 id="3-2"><a href="#3-2" class="headerlink" title="3"></a>3</h3><pre class="line-numbers language-none"><code class="language-none">for data in range (50,201):        if data%2&#x3D;&#x3D;0:                print(&quot;%d是偶数&quot;%(data))        elif data%2&#x3D;&#x3D;1:                print(&quot;%d是奇数&quot;%(data))        else:                print()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:偶数奇数</p><h3 id="4-1"><a href="#4-1" class="headerlink" title="4"></a>4</h3><pre class="line-numbers language-none"><code class="language-none">sum &#x3D; 0for item in range(1, 51):    if sum &gt; 100:        break #退出循环体    sum +&#x3D; item    print(sum)print(&#39;循环在第%d次不执行了,最后的结果是%d&#39; % (item, sum))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="5-1"><a href="#5-1" class="headerlink" title="5"></a>5</h3><pre class="line-numbers language-none"><code class="language-none">for item in range(1,101):    if item%2&#x3D;&#x3D;0:        continue        pass    print(item)    pass<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="6"><a href="#6" class="headerlink" title="6"></a>6</h3><pre class="line-numbers language-none"><code class="language-none">index&#x3D;0while index&lt;&#x3D;100:    index+&#x3D;1    if index&gt;20:        continue    print(index)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:<br>break代表终端结束,满足条件直接结束本层循环<br>contiune结束本次循环,继续进行下次循环(当continue的条件满足的时候,本次循环剩下的语句将不再执行,后面的循环继续)<br>这两个关键字只能用在循环中</p><h3 id="7"><a href="#7" class="headerlink" title="7"></a>7</h3><pre class="line-numbers language-none"><code class="language-none">for i in range(1,10):    for j in range(1,11-i):        print(&quot;%d*%d&#x3D;%d&quot;%(i,j,i*j),end&#x3D;&#39;&#39;)    print()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>introction:<br>while循环无次数,要靠break打断<br>for是给定循环的</p><h3 id="8"><a href="#8" class="headerlink" title="8"></a>8</h3><pre class="line-numbers language-none"><code class="language-none">account&#x3D;&#39;1&#39;pwd&#x3D;&#39;1&#39;for i in range (0,3):    zh&#x3D;input(&#39;账号:&#39;)    pd&#x3D;input(&#39;密码:&#39;)    if zh&#x3D;&#x3D;account and pd&#x3D;&#x3D;pwd:        print(&#39;登陆成功&#39;)        break        pass    passelse:    print(&#39;账号锁定&#39;)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="9"><a href="#9" class="headerlink" title="9"></a>9</h3><pre class="line-numbers language-none"><code class="language-none">print(&#39;----猜年龄----&#39;)i &#x3D; 1age &#x3D; 21while i &lt;&#x3D; 3:    nl &#x3D; int(input(&#39;年龄:&#39;))    if nl &#x3D;&#x3D; age:        print(&#39;答对了&#39;)        break    else:        print(&#39;答错了&#39;)    i +&#x3D; 1    if i &#x3D;&#x3D; 4:        hd &#x3D; input(&#39;是否还想继续玩:&#39;)        if hd &#x3D;&#x3D; &#39;N&#39; or hd&#x3D;&#x3D;&#39;n&#39;:            break        else:            for i in range(1,10000):                nl &#x3D; int(input(&#39;年龄:&#39;))                if nl &#x3D;&#x3D; age:                    print(&quot;答对了&quot;)                    break                else:                    print(&#39;答错了&#39;)print(&#39;结束&#39;)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="高级数据类型"><a href="#高级数据类型" class="headerlink" title="高级数据类型"></a>高级数据类型</h2><h3 id="字符串及常用方法"><a href="#字符串及常用方法" class="headerlink" title="字符串及常用方法"></a>字符串及常用方法</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/zifuchuanjichangyongfangfa.jpg" loading="lazy"><p>序列: 一组按照顺序排列的值[数据集合]<br>内置的序列类型: 字符串、列表、元组<br>序列优点: 可以支持索引和切片的操作<br>序列特征: 第一个正索引为0,指向的是左端,第一个索引为复数的时候,指向的是右端</p><p>切片: [高级特性]可以根据下标来获取序列对象的任意数据<br>语法结构: [start:end:step] step默认1</p><h3 id="列表及常用方法"><a href="#列表及常用方法" class="headerlink" title="列表及常用方法"></a>列表及常用方法</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/Snipaste_2021-05-21_20-35-06.jpg" loading="lazy"><pre class="line-numbers language-none"><code class="language-none">lst &#x3D; [&#39;hello&#39;, &#39;world&#39;, 98, &#39;hello&#39;]lst2 &#x3D; list([&#39;hello&#39;, &#39;world&#39;, 98])print(lst[0], lst[-1])print(lst.index(&#39;hello&#39;, 1, 4))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/Snipaste_2021-05-21_20-54-09.jpg" loading="lazy"><pre class="line-numbers language-none"><code class="language-none">lst&#x3D;[1,2,3,4,5,6,7,8]print(lst)print(lst[-8:6:1])print(lst[7:1:-2])<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><img src="https://i.loli.net/2021/05/21/BvVWYxiR8CqZy1G.jpg" loading="lazy"><pre class="line-numbers language-none"><code class="language-none">lst &#x3D; [1, 2, &#39;python&#39;, &#39;hello&#39;]print(3 in lst)print(3 not in lst)print(&#39;hello&#39; in lst)print(&#39;-----------------------&#39;)for item in lst:    print(item)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/Snipaste_2021-05-22_15-27-52.jpg" loading="lazy"><h3 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h3><h3 id="字典及常用方法"><a href="#字典及常用方法" class="headerlink" title="字典及常用方法"></a>字典及常用方法</h3><h3 id="共有操作"><a href="#共有操作" class="headerlink" title="共有操作"></a>共有操作</h3>]]></content>
-      
-      
-      <categories>
-          
-          <category> 笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 语法 </tag>
-            
-            <tag> 命令 </tag>
-            
-            <tag> 笔记 </tag>
-            
-            <tag> 后端 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于那些一眼就能想起她的句子</title>
       <link href="2021/%E5%8F%A5%E5%AD%90/"/>
       <url>2021/%E5%8F%A5%E5%AD%90/</url>
@@ -157,7 +97,30 @@
             
             <tag> 文摘 </tag>
             
-            <tag> 美 </tag>
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于markdown的一些笔记</title>
+      <link href="2021/markdown/"/>
+      <url>2021/markdown/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><h2 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容"></a>主要内容</h2><blockquote><h4 id="Markdown是什么？"><a href="#Markdown是什么？" class="headerlink" title="Markdown是什么？"></a>Markdown<em>是什么</em>？</h4><h4 id="谁创造了它？"><a href="#谁创造了它？" class="headerlink" title="谁创造了它？"></a><em>谁</em>创造了它？</h4><h4 id="为什么要使用它？"><a href="#为什么要使用它？" class="headerlink" title="为什么要使用它？"></a><em>为什么</em>要使用它？</h4><h4 id="怎么使用？"><a href="#怎么使用？" class="headerlink" title="怎么使用？"></a><em>怎么</em>使用？</h4><h4 id="谁在用？"><a href="#谁在用？" class="headerlink" title="谁在用？"></a><em>谁</em>在用？</h4><h4 id="尝试一下"><a href="#尝试一下" class="headerlink" title="尝试一下"></a>尝试一下</h4></blockquote><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="1-Markdown是什么？"><a href="#1-Markdown是什么？" class="headerlink" title="1. Markdown是什么？"></a>1. Markdown<em>是什么</em>？</h3><p><strong>Markdown</strong>是一种轻量级<strong>标记语言</strong>，它以纯文本形式(<em>易读、易写、易更改</em>)编写文档，并最终以HTML格式发布。<br><strong>Markdown</strong>也可以理解为将以MARKDOWN语法编写的语言转换成HTML内容的工具。    </p><h3 id="2-谁创造了它？"><a href="#2-谁创造了它？" class="headerlink" title="2. 谁创造了它？"></a>2. <em>谁</em>创造了它？</h3><p>它由<a href="http://www.aaronsw.com/"><strong>Aaron Swartz</strong></a>和<strong>John Gruber</strong>共同设计，<strong>Aaron Swartz</strong>就是那位于去年（<em>2013年1月11日</em>）自杀,有着<strong>开挂</strong>一般人生经历的程序员。维基百科对他的<a href="http://zh.wikipedia.org/wiki/%E4%BA%9A%E4%BC%A6%C2%B7%E6%96%AF%E6%B2%83%E8%8C%A8">介绍</a>是：<strong>软件工程师、作家、政治组织者、互联网活动家、维基百科人</strong>。    </p><p>他有着足以让你跪拜的人生经历：    </p><ul><li><strong>14岁</strong>参与RSS 1.0规格标准的制订。     </li><li><strong>2004</strong>年入读<strong>斯坦福</strong>，之后退学。   </li><li><strong>2005</strong>年创建<a href="http://infogami.org/">Infogami</a>，之后与<a href="http://www.reddit.com/">Reddit</a>合并成为其合伙人。   </li><li><strong>2010</strong>年创立求进会（Demand Progress），积极参与禁止网络盗版法案（SOPA）活动，最终该提案被撤回。   </li><li><strong>2011</strong>年7月19日，因被控从MIT和JSTOR下载480万篇学术论文并以免费形式上传于网络被捕。     </li><li><strong>2013</strong>年1月自杀身亡。    </li></ul><p>天才都有早逝的归途。</p><h3 id="3-为什么要使用它？"><a href="#3-为什么要使用它？" class="headerlink" title="3. 为什么要使用它？"></a>3. <em>为什么</em>要使用它？</h3><ul><li>它是易读（看起来舒服）、易写（语法简单）、易更改<strong>纯文本</strong>。处处体现着<strong>极简主义</strong>的影子。</li><li>兼容HTML，可以转换为HTML格式发布。</li><li>跨平台使用。</li><li>越来越多的网站支持Markdown。</li><li>更方便清晰地组织你的电子邮件。（Markdown-here, Airmail）</li><li>摆脱Word（我不是认真的）。</li></ul><h3 id="4-怎么使用？"><a href="#4-怎么使用？" class="headerlink" title="4. 怎么使用？"></a>4. <em>怎么</em>使用？</h3><p>如果不算<strong>扩展</strong>，Markdown的语法绝对<strong>简单</strong>到让你爱不释手。</p><p>Markdown语法主要分为如下几大部分：<br><strong>标题</strong>，<strong>段落</strong>，<strong>区块引用</strong>，<strong>代码区块</strong>，<strong>强调</strong>，<strong>列表</strong>，<strong>分割线</strong>，<strong>链接</strong>，<strong>图片</strong>，**反斜杠 <code>\</code><strong>，</strong>符号’`’**。</p><h4 id="4-1-标题"><a href="#4-1-标题" class="headerlink" title="4.1 标题"></a>4.1 标题</h4><p>两种形式：<br>1）使用<code>=</code>和<code>-</code>标记一级和二级标题。</p><blockquote><p>一级标题<br><code>=========</code><br>二级标题<br><code>---------</code></p></blockquote><p>效果：</p><blockquote><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题   "></a>一级标题   </h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2></blockquote><p>2）使用<code>#</code>，可表示1-6级标题。</p><blockquote><p># 一级标题<br>## 二级标题<br>### 三级标题<br>#### 四级标题<br>##### 五级标题<br>###### 六级标题    </p></blockquote><p>效果：</p><blockquote><h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote><h4 id="4-2-段落"><a href="#4-2-段落" class="headerlink" title="4.2 段落"></a>4.2 段落</h4><p>段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用<strong>两个以上</strong>空格加上回车（引用中换行省略回车）。</p><h4 id="4-3-区块引用"><a href="#4-3-区块引用" class="headerlink" title="4.3 区块引用"></a>4.3 区块引用</h4><p>在段落的每行或者只在第一行使用符号<code>&gt;</code>,还可使用多个嵌套引用，如：</p><blockquote><p>&gt; 区块引用<br>&gt;&gt; 嵌套引用  </p></blockquote><p>效果：</p><blockquote><p>区块引用  </p><blockquote><p>嵌套引用</p></blockquote></blockquote><h4 id="4-4-代码区块"><a href="#4-4-代码区块" class="headerlink" title="4.4 代码区块"></a>4.4 代码区块</h4><p>代码区块的建立是在每行加上4个空格或者一个制表符（如同写代码一样）。如<br>普通段落：</p><p>void main()<br>{<br>    printf(“Hello, Markdown.”);<br>}    </p><p>代码区块：</p><pre><code>void main()&#123;    printf(&quot;Hello, Markdown.&quot;);&#125;</code></pre><p><strong>注意</strong>:需要和普通段落之间存在空行。</p><h4 id="4-5-强调"><a href="#4-5-强调" class="headerlink" title="4.5 强调"></a>4.5 强调</h4><p>在强调内容两侧分别加上<code>*</code>或者<code>_</code>，如：</p><blockquote><p>*斜体*，_斜体_<br>**粗体**，__粗体__</p></blockquote><p>效果：</p><blockquote><p><em>斜体</em>，<em>斜体</em><br><strong>粗体</strong>，<strong>粗体</strong></p></blockquote><h4 id="4-6-列表"><a href="#4-6-列表" class="headerlink" title="4.6 列表"></a>4.6 列表</h4><p>使用<code>·</code>、<code>+</code>、或<code>-</code>标记无序列表，如：</p><blockquote><p>-（+*） 第一项<br>-（+*） 第二项<br>- （+*）第三项</p></blockquote><p><strong>注意</strong>：标记后面最少有一个_空格_或_制表符_。若不在引用区块中，必须和前方段落之间存在空行。</p><p>效果：</p><blockquote><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul></blockquote><p>有序列表的标记方式是将上述的符号换成数字,并辅以<code>.</code>，如：</p><blockquote><p>1 . 第一项<br>2 . 第二项<br>3 . 第三项    </p></blockquote><p>效果：</p><blockquote><ol><li>第一项</li><li>第二项</li><li>第三项</li></ol></blockquote><h4 id="4-7-分割线"><a href="#4-7-分割线" class="headerlink" title="4.7 分割线"></a>4.7 分割线</h4><p>分割线最常使用就是三个或以上<code>*</code>，还可以使用<code>-</code>和<code>_</code>。</p><h4 id="4-8-链接"><a href="#4-8-链接" class="headerlink" title="4.8 链接"></a>4.8 链接</h4><p>链接可以由两种形式生成：<strong>行内式</strong>和<strong>参考式</strong>。<br><strong>行内式</strong>：</p><blockquote><p>[younghz的Markdown库](https:://github.com/younghz/Markdown “Markdown”)。</p></blockquote><p>效果：</p><blockquote><p><a href="https:://github.com/younghz/Markdown" title="Markdown">younghz的Markdown库</a>。</p></blockquote><p><strong>参考式</strong>：</p><blockquote><p>[younghz的Markdown库1][1]<br>[younghz的Markdown库2][2]<br>[1]:https:://github.com/younghz/Markdown “Markdown”<br>[2]:https:://github.com/younghz/Markdown “Markdown”    </p></blockquote><p>效果：</p><blockquote><p><a href="https:://github.com/younghz/Markdown" title="Markdown">younghz的Markdown库1</a><br><a href="https:://github.com/younghz/Markdown" title="Markdown">younghz的Markdown库2</a></p></blockquote><p><strong>注意</strong>：上述的<code>[1]:https:://github.com/younghz/Markdown &quot;Markdown&quot;</code>不出现在区块中。</p><h4 id="4-9-图片"><a href="#4-9-图片" class="headerlink" title="4.9 图片"></a>4.9 图片</h4><p>添加图片的形式和链接相似，只需在链接的基础上前方加一个<code>！</code>。</p><h4 id="4-10-反斜杠"><a href="#4-10-反斜杠" class="headerlink" title="4.10 反斜杠\"></a>4.10 反斜杠<code>\</code></h4><p>相当于<strong>反转义</strong>作用。使符号成为普通符号。</p><h4 id="4-11-符号’-’"><a href="#4-11-符号’-’" class="headerlink" title="4.11 符号’`’"></a>4.11 符号’`’</h4><p>起到标记作用。如：</p><blockquote><p>`ctrl+a`</p></blockquote><p>效果：</p><blockquote><p><code>ctrl+a</code>    </p></blockquote><h4 id="5-谁在用？"><a href="#5-谁在用？" class="headerlink" title="5. 谁在用？"></a>5. <em>谁</em>在用？</h4><p>Markdown的使用者：</p><ul><li>GitHub</li><li>简书</li><li>Stack Overflow</li><li>Apollo</li><li>Moodle</li><li>Reddit</li><li>等等</li></ul><h4 id="6-尝试一下"><a href="#6-尝试一下" class="headerlink" title="6. 尝试一下"></a>6. 尝试一下</h4><ul><li><strong>Chrome</strong>下的插件诸如<code>stackedit</code>与<code>markdown-here</code>等非常方便，也不用担心平台受限。</li><li><strong>在线</strong>的dillinger.io评价也不错   </li><li><strong>Windowns</strong>下的MarkdownPad也用过，不过免费版的体验不是很好。    </li><li><strong>Mac</strong>下的Mou是国人贡献的，口碑很好。</li><li><strong>Linux</strong>下的ReText不错。    </li></ul><p><strong>当然，最终境界永远都是笔下是语法，心中格式化 :)。</strong></p><hr><p><strong>注意</strong>：不同的Markdown解释器或工具对相应语法（扩展语法）的解释效果不尽相同，具体可参见工具的使用说明。<br>虽然有人想出面搞一个所谓的标准化的Markdown，[没想到还惹怒了健在的创始人John Gruber]<br>(<a href="http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/">http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/</a> )。</p><hr><p>以上基本是所有traditonal markdown的语法。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
@@ -166,7 +129,7 @@
     
     
     <entry>
-      <title>关于我想去做做志愿者却没做的事</title>
+      <title>关于我想去做志愿者却没做的事</title>
       <link href="2021/%E5%BF%97%E6%84%BF%E8%80%85/"/>
       <url>2021/%E5%BF%97%E6%84%BF%E8%80%85/</url>
       
@@ -183,33 +146,6 @@
         <tags>
             
             <tag> 日记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于那些可能上帝也会感慨的句子</title>
-      <link href="2021/%E8%8B%B1%E6%96%87%E5%8F%A5%E5%AD%90/"/>
-      <url>2021/%E8%8B%B1%E6%96%87%E5%8F%A5%E5%AD%90/</url>
-      
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>I had a crush on her.</p></blockquote><blockquote><p>Some of us get dipped in flat, some in satin, some in gloss. But every once in a while you find someone who”s iridescent, and when you do, nothing will ever compare.</p></blockquote><blockquote><p>I am infatuated with her.</p></blockquote><blockquote><p>She is my ideal girl.</p></blockquote><blockquote><p>I’m burning for her.</p></blockquote><blockquote><p>I can’t bear to be apart from her.</p></blockquote><blockquote><p>I’m under her spell.</p></blockquote><blockquote><p>I can’t get over her.</p></blockquote><blockquote><p>I’m hooked on her.</p></blockquote><blockquote><p>She is my one and only.</p></blockquote><blockquote><p>She make me whole.</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 文摘 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 文摘 </tag>
-            
-            <tag> love </tag>
             
         </tags>
       
@@ -236,7 +172,32 @@
             
             <tag> 日记 </tag>
             
-            <tag> 趣 </tag>
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于python的一些笔记</title>
+      <link href="2021/python/"/>
+      <url>2021/python/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><p><a href="https://baike.baidu.com/item/Python/407313?fr=aladdin">Python</a> is a high-level scripting language that combines interpretability, compilation, interactivity and object-oriented.</p><h2 id="random"><a href="#random" class="headerlink" title="random"></a>random</h2><pre class="line-numbers language-none"><code class="language-none">import randomlength &#x3D; random.randint(1, 10)print(&#39;--------他的长短---------&#39;)guess &#x3D; int(input(&quot;他多长?&quot;))if guess &#x3D;&#x3D; length:        print(&quot;你怎么知道.&quot;)        print(&quot;你是不是见过.&quot;)else:        while guess !&#x3D; length:                temp &#x3D; input(&quot;再试一次.&quot;)                guess &#x3D; int(temp)                if guess &gt; length:                        print(&quot;他没那么长&quot;)                elif guess &lt; length:                        print(&quot;他没那么短&quot;)                else:                        print(&quot;你怎么知道&quot;)                        print(&quot;你是不是见过&quot;)print(&quot;结束.&quot;)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><pre class="line-numbers language-none"><code class="language-none">单行注释:#多行注释&#39;&#39;&#39; &#39;&#39;&#39;特殊注释#!&#x2F;usr&#x2F;bin&#x2F;env python3;#--coding&#x3D;utf-8--<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><h3 id="1"><a href="#1" class="headerlink" title="1"></a>1</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/jibenshujuleixing.jpg" loading="lazy"><p>introduction:type()方法可以查看类型</p><h3 id="2"><a href="#2" class="headerlink" title="2"></a>2</h3><pre class="line-numbers language-none"><code class="language-none">#变量的命名规则 #变量必须以字母(a-z,A-2)或下划线()开头 #其他字符可以是字母,数字或 #变量区分大小写 #Python关键字不能用作变量名 #变量的命名不能以数来开头 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="符号"><a href="#符号" class="headerlink" title="符号"></a>符号</h2><h3 id="1-1"><a href="#1-1" class="headerlink" title="1"></a>1</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/suanshuyunsuanfu.jpg" loading="lazy"><h3 id="2-1"><a href="#2-1" class="headerlink" title="2"></a>2</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/bijiaoyunsuanfu.jpg" loading="lazy"><h3 id="3"><a href="#3" class="headerlink" title="3"></a>3</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/luojiyunsuanfu.jpg" loading="lazy"><p>优先级:( )、not、and、or</p><h3 id="4"><a href="#4" class="headerlink" title="4"></a>4</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/fuzhiyunsuanfu.jpg" loading="lazy"><p>introduction:算术运算的一个补充</p><h3 id="5"><a href="#5" class="headerlink" title="5"></a>5</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/geshihuafuhao.jpg" loading="lazy"><h2 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h2><pre class="line-numbers language-none"><code class="language-none">name&#x3D;&#39;废物&#39;classPro&#x3D;&#39;垃圾场一号垃圾坑二号桶&#39;age&#x3D;1print(&#39;我叫%s\n来自%s\n现在%d岁&#39;%(name,classPro,age))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:%可换成{}和.format<br>moreinfo:python中提供了input方法来获取键盘输入<br>note:input接收的键血输入结果都是str类型的、如果接收数字类型需要将str转成int </p><h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><h3 id="1-2"><a href="#1-2" class="headerlink" title="1"></a>1</h3><p>流程:就是计算机执行代码的顺序<br>流程控制:对计算机代码执行的顺序进行有效的管理,只有流程控制才能实现在开发当中的业务 </p><p>流程控制的分类<br>顺序流程:就是代码一种自上而下的执行结构,也是 python默认的<br>选择流程/分支流程:根据在某一步的判断,有选择的去执行相应的逻辑的一种结构|<br>循环流程:满足一定的条件下,一直重复的去执行某段代码的逻辑[事情]</p><h3 id="2-2"><a href="#2-2" class="headerlink" title="2"></a>2</h3><p>if…<br>if…else<br>if…elif…else</p><h2 id="循环"><a href="#循环" class="headerlink" title="循环"></a>循环</h2><h3 id="1-3"><a href="#1-3" class="headerlink" title="1"></a>1</h3><pre class="line-numbers language-none"><code class="language-none">import randomcount &#x3D; 1while count &lt;&#x3D; 3:        person &#x3D; int(input(&#39;出&#39;))        computer &#x3D; random.randint(0, 2)        print(computer)        if person &#x3D;&#x3D; computer:                print(&#39;平&#39;)        elif person &#x3D;&#x3D; 0 and computer &#x3D;&#x3D; 1 or person &#x3D;&#x3D; 1 and computer &#x3D;&#x3D; 2 or person &#x3D;&#x3D; 2 and computer &#x3D;&#x3D; 0:                print(&#39;赢&#39;)        else:                print(&#39;输&#39;)        count +&#x3D; 1print(&#39;结束&#39;)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:数字和数字比较,不能随意给字符串赋值;缩进;random必须在while内部.</p><h3 id="2-3"><a href="#2-3" class="headerlink" title="2"></a>2</h3><pre class="line-numbers language-none"><code class="language-none">i&#x3D;1while i&lt;&#x3D;9:        j&#x3D;1        while j&lt;&#x3D;i:                print(&quot;%d*%d&#x3D;%d\t&quot;%(i,j,i*j),end&#x3D;&quot; &quot;)                j+&#x3D;1        print()        i+&#x3D;1<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:缩进;\t意思是空格;end=’ ‘意思是末尾不换行，加空格</p><h3 id="3-1"><a href="#3-1" class="headerlink" title="3"></a>3</h3><pre class="line-numbers language-none"><code class="language-none">i&#x3D;1while i&lt;&#x3D;9:        j&#x3D;1        while j&lt;&#x3D;9-i:                print(&quot; &quot;,end&#x3D;&quot;&quot;)        j+&#x3D;1        k&#x3D;1        while k&lt;&#x3D;2*i-1:                print(&#39;*&#39;,end&#x3D;&#39;&#39;)        k+&#x3D;1        print()        i+&#x3D;1<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>instruction:直角空格;等腰三角*</p><h2 id="range"><a href="#range" class="headerlink" title="range"></a>range</h2><h3 id="1-4"><a href="#1-4" class="headerlink" title="1"></a>1</h3><pre class="line-numbers language-none"><code class="language-none">tags&#x3D;&#39;我是一个废物&#39;for item in tags:print(item)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>introduction:字符串类型本身就是一个字符类型的集合</p><h3 id="2-4"><a href="#2-4" class="headerlink" title="2"></a>2</h3><pre class="line-numbers language-none"><code class="language-none">sum&#x3D;0for data in range(1,101):#左边包含，右边不包含        sum+&#x3D;data #求累加和print(sum)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:<br>range函数可以生成一个数据集合列表<br>range(start,end,scan)<br>start默认为0<br>scan默认为1且不能为0</p><h3 id="3-2"><a href="#3-2" class="headerlink" title="3"></a>3</h3><pre class="line-numbers language-none"><code class="language-none">for data in range (50,201):        if data%2&#x3D;&#x3D;0:                print(&quot;%d是偶数&quot;%(data))        elif data%2&#x3D;&#x3D;1:                print(&quot;%d是奇数&quot;%(data))        else:                print()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:偶数奇数</p><h3 id="4-1"><a href="#4-1" class="headerlink" title="4"></a>4</h3><pre class="line-numbers language-none"><code class="language-none">sum &#x3D; 0for item in range(1, 51):    if sum &gt; 100:        break #退出循环体    sum +&#x3D; item    print(sum)print(&#39;循环在第%d次不执行了,最后的结果是%d&#39; % (item, sum))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="5-1"><a href="#5-1" class="headerlink" title="5"></a>5</h3><pre class="line-numbers language-none"><code class="language-none">for item in range(1,101):    if item%2&#x3D;&#x3D;0:        continue        pass    print(item)    pass<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="6"><a href="#6" class="headerlink" title="6"></a>6</h3><pre class="line-numbers language-none"><code class="language-none">index&#x3D;0while index&lt;&#x3D;100:    index+&#x3D;1    if index&gt;20:        continue    print(index)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>introduction:<br>break代表终端结束,满足条件直接结束本层循环<br>contiune结束本次循环,继续进行下次循环(当continue的条件满足的时候,本次循环剩下的语句将不再执行,后面的循环继续)<br>这两个关键字只能用在循环中</p><h3 id="7"><a href="#7" class="headerlink" title="7"></a>7</h3><pre class="line-numbers language-none"><code class="language-none">for i in range(1,10):    for j in range(1,11-i):        print(&quot;%d*%d&#x3D;%d&quot;%(i,j,i*j),end&#x3D;&#39;&#39;)    print()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>introction:<br>while循环无次数,要靠break打断<br>for是给定循环的</p><h3 id="8"><a href="#8" class="headerlink" title="8"></a>8</h3><pre class="line-numbers language-none"><code class="language-none">account&#x3D;&#39;1&#39;pwd&#x3D;&#39;1&#39;for i in range (0,3):    zh&#x3D;input(&#39;账号:&#39;)    pd&#x3D;input(&#39;密码:&#39;)    if zh&#x3D;&#x3D;account and pd&#x3D;&#x3D;pwd:        print(&#39;登陆成功&#39;)        break        pass    passelse:    print(&#39;账号锁定&#39;)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h3 id="9"><a href="#9" class="headerlink" title="9"></a>9</h3><pre class="line-numbers language-none"><code class="language-none">print(&#39;----猜年龄----&#39;)i &#x3D; 1age &#x3D; 21while i &lt;&#x3D; 3:    nl &#x3D; int(input(&#39;年龄:&#39;))    if nl &#x3D;&#x3D; age:        print(&#39;答对了&#39;)        break    else:        print(&#39;答错了&#39;)    i +&#x3D; 1    if i &#x3D;&#x3D; 4:        hd &#x3D; input(&#39;是否还想继续玩:&#39;)        if hd &#x3D;&#x3D; &#39;N&#39; or hd&#x3D;&#x3D;&#39;n&#39;:            break        else:            for i in range(1,10000):                nl &#x3D; int(input(&#39;年龄:&#39;))                if nl &#x3D;&#x3D; age:                    print(&quot;答对了&quot;)                    break                else:                    print(&#39;答错了&#39;)print(&#39;结束&#39;)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="高级数据类型"><a href="#高级数据类型" class="headerlink" title="高级数据类型"></a>高级数据类型</h2><h3 id="字符串及常用方法"><a href="#字符串及常用方法" class="headerlink" title="字符串及常用方法"></a>字符串及常用方法</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/zifuchuanjichangyongfangfa.jpg" loading="lazy"><p>序列: 一组按照顺序排列的值[数据集合]<br>内置的序列类型: 字符串、列表、元组<br>序列优点: 可以支持索引和切片的操作<br>序列特征: 第一个正索引为0,指向的是左端,第一个索引为复数的时候,指向的是右端</p><p>切片: [高级特性]可以根据下标来获取序列对象的任意数据<br>语法结构: [start:end:step] step默认1</p><h3 id="列表及常用方法"><a href="#列表及常用方法" class="headerlink" title="列表及常用方法"></a>列表及常用方法</h3><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/Snipaste_2021-05-21_20-35-06.jpg" loading="lazy"><pre class="line-numbers language-none"><code class="language-none">lst &#x3D; [&#39;hello&#39;, &#39;world&#39;, 98, &#39;hello&#39;]lst2 &#x3D; list([&#39;hello&#39;, &#39;world&#39;, 98])print(lst[0], lst[-1])print(lst.index(&#39;hello&#39;, 1, 4))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/Snipaste_2021-05-21_20-54-09.jpg" loading="lazy"><pre class="line-numbers language-none"><code class="language-none">lst&#x3D;[1,2,3,4,5,6,7,8]print(lst)print(lst[-8:6:1])print(lst[7:1:-2])<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><img src="https://i.loli.net/2021/05/21/BvVWYxiR8CqZy1G.jpg" loading="lazy"><pre class="line-numbers language-none"><code class="language-none">lst &#x3D; [1, 2, &#39;python&#39;, &#39;hello&#39;]print(3 in lst)print(3 not in lst)print(&#39;hello&#39; in lst)print(&#39;-----------------------&#39;)for item in lst:    print(item)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><img src="https://cdn.jsdelivr.net/gh/Vingurzhou/images@master/post/Snipaste_2021-05-22_15-27-52.jpg" loading="lazy"><h3 id="元组"><a href="#元组" class="headerlink" title="元组"></a>元组</h3><h3 id="字典及常用方法"><a href="#字典及常用方法" class="headerlink" title="字典及常用方法"></a>字典及常用方法</h3><h3 id="共有操作"><a href="#共有操作" class="headerlink" title="共有操作"></a>共有操作</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> 笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> python </tag>
             
         </tags>
       
@@ -245,11 +206,11 @@
     
     
     <entry>
-      <title>关于那些让我感觉很惊艳的诗词</title>
-      <link href="2021/%E8%AF%97%E5%8F%A5/"/>
-      <url>2021/%E8%AF%97%E5%8F%A5/</url>
+      <title>关于那些可能上帝也会感慨的句子</title>
+      <link href="2021/%E8%8B%B1%E6%96%87%E5%8F%A5%E5%AD%90/"/>
+      <url>2021/%E8%8B%B1%E6%96%87%E5%8F%A5%E5%AD%90/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>一面情动，<br>两语心安。<br>三缄于口，<br>四海生风。</p></blockquote><blockquote><p>我步步都回头，<br>山是古人眸，<br>柳是纤纤手，<br>遇你之后，<br>步步都难走。</p></blockquote><blockquote><p>江南伞贵，<br>不及你眉眼珍贵。</p></blockquote><blockquote><p>凤兮凤兮归故乡，<br>遨游四海求其凰。</p></blockquote><blockquote><p>最是人间留不住，<br>朱颜辞镜花辞树。</p></blockquote><blockquote><p>一两赠欢喜，<br>二两开生门，<br>三两过酒肉，<br>四两不还乡。</p></blockquote><blockquote><p>锦瑟无端五十弦，<br>一弦一柱思华年。</p></blockquote><blockquote><p>人生若只如初见，<br>何事秋风悲画扇。</p></blockquote><blockquote><p>斯人若彩虹，<br>遇上方知有。</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>I had a crush on her.</p></blockquote><blockquote><p>Some of us get dipped in flat, some in satin, some in gloss. But every once in a while you find someone who”s iridescent, and when you do, nothing will ever compare.</p></blockquote><blockquote><p>I am infatuated with her.</p></blockquote><blockquote><p>She is my ideal girl.</p></blockquote><blockquote><p>I’m burning for her.</p></blockquote><blockquote><p>I can’t bear to be apart from her.</p></blockquote><blockquote><p>I’m under her spell.</p></blockquote><blockquote><p>I can’t get over her.</p></blockquote><blockquote><p>I’m hooked on her.</p></blockquote><blockquote><p>She is my one and only.</p></blockquote><blockquote><p>She make me whole.</p></blockquote>]]></content>
       
       
       <categories>
@@ -262,12 +223,6 @@
         <tags>
             
             <tag> 文摘 </tag>
-            
-            <tag> 美 </tag>
-            
-            <tag> 善 </tag>
-            
-            <tag> 随笔 </tag>
             
         </tags>
       
@@ -294,17 +249,30 @@
             
             <tag> 文摘 </tag>
             
-            <tag> 恶 </tag>
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于那些让我感觉很惊艳的诗词</title>
+      <link href="2021/%E8%AF%97%E5%8F%A5/"/>
+      <url>2021/%E8%AF%97%E5%8F%A5/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js"></script><blockquote><p>一面情动，<br>两语心安。<br>三缄于口，<br>四海生风。</p></blockquote><blockquote><p>我步步都回头，<br>山是古人眸，<br>柳是纤纤手，<br>遇你之后，<br>步步都难走。</p></blockquote><blockquote><p>江南伞贵，<br>不及你眉眼珍贵。</p></blockquote><blockquote><p>凤兮凤兮归故乡，<br>遨游四海求其凰。</p></blockquote><blockquote><p>最是人间留不住，<br>朱颜辞镜花辞树。</p></blockquote><blockquote><p>一两赠欢喜，<br>二两开生门，<br>三两过酒肉，<br>四两不还乡。</p></blockquote><blockquote><p>锦瑟无端五十弦，<br>一弦一柱思华年。</p></blockquote><blockquote><p>人生若只如初见，<br>何事秋风悲画扇。</p></blockquote><blockquote><p>斯人若彩虹，<br>遇上方知有。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文摘 </category>
+          
+      </categories>
+      
+      
+        <tags>
             
-            <tag> 苦 </tag>
-            
-            <tag> 劣 </tag>
-            
-            <tag> 坏 </tag>
-            
-            <tag> 丑 </tag>
-            
-            <tag> 骂 </tag>
+            <tag> 文摘 </tag>
             
         </tags>
       
@@ -329,10 +297,6 @@
       
         <tags>
             
-            <tag> 语法 </tag>
-            
-            <tag> 命令 </tag>
-            
             <tag> 笔记 </tag>
             
         </tags>
@@ -352,11 +316,25 @@
       
         <tags>
             
-            <tag> jdsa </tag>
+            <tag> python </tag>
             
-            <tag> fndsffs </tag>
+            <tag> vue </tag>
             
-            <tag> djsd </tag>
+            <tag> hexo </tag>
+            
+            <tag> cSS </tag>
+            
+            <tag> git </tag>
+            
+            <tag> react </tag>
+            
+            <tag> php </tag>
+            
+            <tag> javascript </tag>
+            
+            <tag> typescript </tag>
+            
+            <tag> laravel </tag>
             
         </tags>
       
