@@ -121,13 +121,6 @@
   </url>
   
   <url>
-    <loc>https://zhouwenzhe.com/contact/index.html</loc>
-    
-    <lastmod>2021-05-16</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://zhouwenzhe.com/categories/index.html</loc>
     
     <lastmod>2021-05-16</lastmod>
@@ -135,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://zhouwenzhe.com/tags/index.html</loc>
+    <loc>https://zhouwenzhe.com/contact/index.html</loc>
     
     <lastmod>2021-05-16</lastmod>
     
@@ -143,6 +136,13 @@
   
   <url>
     <loc>https://zhouwenzhe.com/catch-cat/dist/index.html</loc>
+    
+    <lastmod>2021-05-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://zhouwenzhe.com/tags/index.html</loc>
     
     <lastmod>2021-05-16</lastmod>
     
@@ -172,13 +172,6 @@
   </url>
   
   <url>
-    <loc>https://zhouwenzhe.com/tags/%E6%96%87%E6%91%98/</loc>
-    <lastmod>2021-05-22</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhouwenzhe.com/tags/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-05-22</lastmod>
     <changefreq>daily</changefreq>
@@ -187,6 +180,13 @@
   
   <url>
     <loc>https://zhouwenzhe.com/tags/python/</loc>
+    <lastmod>2021-05-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhouwenzhe.com/tags/%E6%96%87%E6%91%98/</loc>
     <lastmod>2021-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -272,14 +272,14 @@
   </url>
   
   <url>
-    <loc>https://zhouwenzhe.com/categories/%E6%96%87%E6%91%98/</loc>
+    <loc>https://zhouwenzhe.com/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhouwenzhe.com/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://zhouwenzhe.com/categories/%E6%96%87%E6%91%98/</loc>
     <lastmod>2021-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
