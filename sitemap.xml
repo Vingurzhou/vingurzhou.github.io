@@ -128,14 +128,14 @@
   </url>
   
   <url>
-    <loc>https://zhouwenzhe.com/contact/index.html</loc>
+    <loc>https://zhouwenzhe.com/categories/index.html</loc>
     
     <lastmod>2021-05-16</lastmod>
     
   </url>
   
   <url>
-    <loc>https://zhouwenzhe.com/categories/index.html</loc>
+    <loc>https://zhouwenzhe.com/contact/index.html</loc>
     
     <lastmod>2021-05-16</lastmod>
     
@@ -186,14 +186,14 @@
   </url>
   
   <url>
-    <loc>https://zhouwenzhe.com/tags/%E6%96%87%E6%91%98/</loc>
+    <loc>https://zhouwenzhe.com/tags/python/</loc>
     <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zhouwenzhe.com/tags/python/</loc>
+    <loc>https://zhouwenzhe.com/tags/%E6%96%87%E6%91%98/</loc>
     <lastmod>2021-05-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
