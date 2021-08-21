@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhouwenzhe.com/2021/%E4%BA%8C%E4%B8%89%E4%BA%8B/</loc>
+    
+    <lastmod>2021-08-21</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://zhouwenzhe.com/contact/index.html</loc>
     
     <lastmod>2021-08-15</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>https://zhouwenzhe.com/about/index.html</loc>
-    
-    <lastmod>2021-08-15</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://zhouwenzhe.com/2021/%E4%BA%8C%E4%B8%89%E4%BA%8B/</loc>
     
     <lastmod>2021-08-15</lastmod>
     
@@ -130,78 +130,78 @@
 
   <url>
     <loc>https://zhouwenzhe.com/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://zhouwenzhe.com/tags/%E8%AF%B4%E6%98%8E%E4%B9%A6/</loc>
+    <lastmod>2021-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhouwenzhe.com/tags/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zhouwenzhe.com/tags/%E6%96%87%E6%91%98/</loc>
-    <lastmod>2021-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhouwenzhe.com/tags/%E8%AF%B4%E6%98%8E%E4%B9%A6/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zhouwenzhe.com/tags/mysql/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zhouwenzhe.com/tags/djiango/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zhouwenzhe.com/tags/python/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zhouwenzhe.com/tags/scrapy/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zhouwenzhe.com/tags/linux/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zhouwenzhe.com/tags/pandas/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zhouwenzhe.com/tags/tornado/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -209,22 +209,22 @@
 
   
   <url>
+    <loc>https://zhouwenzhe.com/categories/%E8%AF%B4%E6%98%8E%E4%B9%A6/</loc>
+    <lastmod>2021-08-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhouwenzhe.com/categories/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zhouwenzhe.com/categories/%E6%96%87%E6%91%98/</loc>
-    <lastmod>2021-08-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zhouwenzhe.com/categories/%E8%AF%B4%E6%98%8E%E4%B9%A6/</loc>
-    <lastmod>2021-08-20</lastmod>
+    <lastmod>2021-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
