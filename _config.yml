@@ -7,9 +7,9 @@ title: vingur.site
 subtitle: '文喆的主页'
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Vingur Zhou
+language: zh
+timezone: 'CST'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -102,5 +102,3 @@ theme: tranquility
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  # repo: https://github.com/Vingurzhou/vingurzhou.github.io
-  # branch: main
