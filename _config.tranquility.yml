@@ -1,4 +1,4 @@
-slogan: “宁静致远”
+slogan: “曩喆多遗尘，清风来四隅”
 email: zwz0123460218@icloud.com
 logo: "/images/logo.svg"
 
@@ -11,7 +11,7 @@ favicon: # 配置网页图标
   safari_pinned_tab: /images/logo.svg
 
 subpage: # 开启“子页”功能，详见 README
-  enable: true
+  enable: false
   pages:
     - name: featTest # 文章的分类（category）名，如 developer
       path: feat # 若不设置则默认使用 name
@@ -33,11 +33,11 @@ index: # 配置首页个性化内容
   about:
     title: 关于
     text:
-      - 酒入豪肠,七分酿成了月光
+      - 人类的八十亿分之一，宇宙的尘埃
       -
-      - 余下的三分啸成剑气
+      - 
       -
-      - 绣口一吐就半个盛唐
+      - 
 
 foot:
   title:
@@ -46,26 +46,21 @@ foot:
   linksRows: 4
 
 links: # 朋友
-  - name: "Theme Tranquility"
-    url: https://github.com/hooozen/hexo-theme-tranquility
-  - name: "浩然的主页"
-    url: https://hozen.site
+  - name: "云游君"
+    url: https://www.yunyoujun.cn/
 
 social:
-  - name: "hooozen"
+  - name: "Vingur Zhou"
     icon: "/images/logo-github.svg"
-    url: https://github.com/hooozen
+    url: https://github.com/Vingurzhou
   - name: "谁在胡言乱语"
     icon: "/images/logo-wx.svg"
     url: https://mp.weixin.qq.com/s?__biz=MzI3NzQ4NDkzNg==&mid=2247484469&idx=1&sn=8a442bb67397f52cce5c38c3f9b41e36&chksm=eb64c0d2dc1349c40d2e1bb55615ae28b3f2951be22f00717b9ade98c851082e42dc666ab45d#rd
-  - name: "Mundooo"
-    icon: "/images/logo-zh.svg"
-    url: https://www.zhihu.com/people/hozen
 
 contacts:
-  - name: "name@example.com"
+  - name: "zwz0123460218@icloud.com"
     icon: "/images/icon/icon-email.svg"
-    url: "mailto:name@example.com"
+    url: "mailto:zwz0123460218@icloud.com"
 
 reward: # 赞赏
   enable: true
@@ -130,7 +125,7 @@ timeline:
     - name: article
       color: "#ee936c"
       icon: /images/icon/icon-article.svg
-      checked: false
+      checked: true
     - name: app
       color: "#60a465"
       icon: /images/icon/icon-app.svg
@@ -138,7 +133,7 @@ timeline:
     - name: event
       color: "#568dc4"
       icon: /images/icon/icon-event.svg
-      checked: false
+      checked: true
 
 # 标签云
 tagcloud:

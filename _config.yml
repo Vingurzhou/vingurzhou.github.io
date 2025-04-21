@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: vingur.site
+subtitle: '文喆的主页'
 description: ''
 keywords:
 author: John Doe
@@ -102,5 +102,5 @@ theme: tranquility
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Vingurzhou/vingurzhou.github.io
-  branch: main
+  # repo: https://github.com/Vingurzhou/vingurzhou.github.io
+  # branch: main
