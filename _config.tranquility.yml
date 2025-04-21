@@ -63,7 +63,7 @@ contacts:
     url: "mailto:zwz0123460218@icloud.com"
 
 reward: # 赞赏
-  enable: true
+  enable: false
   face: /assets/author-face.jpg # 头像图片
   paycode: /assets/pay-code.jpg # 支付码图片
   text: “给作者倒杯卡布奇诺”
