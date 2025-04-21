@@ -88,7 +88,7 @@ gitalk: # gitalk 评论
 
 # see https://github.com/tea3/hexo-related-popular-posts
 related_post:
-  enable: true
+  enable: false
   config:
     maxCount: 5 # Maximum count of a list. default 5
     ulClass: # Class name of element. deafult 'popular-posts'
