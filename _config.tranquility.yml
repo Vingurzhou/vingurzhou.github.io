@@ -13,7 +13,7 @@ favicon: # 配置网页图标
 subpage: # 开启“子页”功能，详见 README
   enable: true
   pages:
-    - name: 友链接力 
+    - name: traveling
       path: https://www.travellings.cn/go.html 
       title: 🚇 
     - name: article 
@@ -22,6 +22,7 @@ subpage: # 开启“子页”功能，详见 README
     - name:  event
       title: 日记
       icon: /images/icon/icon-event.svg
+      description: '我是个很怀旧的人，在这写下每个阶段的感悟。希望以后回首的时候，都还是从前那个少年。'
 
 index: # 配置首页个性化内容
   motto: "长风破浪会有时！"
@@ -32,7 +33,7 @@ index: # 配置首页个性化内容
   about:
     title: 关于我
     text:
-      - INFJ｜猫奴｜码农｜二次元
+      - INFJ | 猫奴 | 码农 | 二次元
       - 平时宅家里打王者、k歌
       - 梦想是打卡世界各地～
 
@@ -50,9 +51,6 @@ social:
   - name: "Vingur Zhou"
     icon: "/images/logo-github.svg"
     url: https://github.com/Vingurzhou
-  - name: "谁在胡言乱语"
-    icon: "/images/logo-wx.svg"
-    url: https://mp.weixin.qq.com/s?__biz=MzI3NzQ4NDkzNg==&mid=2247484469&idx=1&sn=8a442bb67397f52cce5c38c3f9b41e36&chksm=eb64c0d2dc1349c40d2e1bb55615ae28b3f2951be22f00717b9ade98c851082e42dc666ab45d#rd
 
 contacts:
   - name: "zwz0123460218@icloud.com"
@@ -77,7 +75,7 @@ gitalk: # gitalk 评论
 
   distractionFreeMode: false # Facebook-like distraction free mode
   # When the official proxy is not available, you can change it to your own proxy address
-  proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy adress
+  proxy: https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token # This is official proxy address
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
@@ -88,7 +86,7 @@ related_post:
   enable: false
   config:
     maxCount: 5 # Maximum count of a list. default 5
-    ulClass: # Class name of element. deafult 'popular-posts'
+    ulClass: # Class name of element. default 'popular-posts'
     PPMixingRate: 0.4 # Mixing ratio of popular posts and related posts. default 0.0(=Related posts only)
     isDate: # visible the date. false
     isImage: # visible the image. false
