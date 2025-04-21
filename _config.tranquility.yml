@@ -31,18 +31,16 @@ index: # 配置首页个性化内容
     - 朝如青丝暮成雪
   photo: /images/about.jpg
   about:
-    title: 关于
+    title: 关于我
     text:
-      - 人类的八十亿分之一，宇宙的尘埃
-      -
-      - 
-      -
-      - 
+      - INFJ、猫奴、码农、皇杂、二次元
+      - 喜欢打王者,喜欢k歌
+      - 梦想是打卡未知的地带～
 
 foot:
   title:
-    - "海内存知己"
-    - "天涯若比邻"
+    - "曩喆多遗尘"
+    - "清风来四隅"
   linksRows: 4
 
 links: # 朋友
@@ -50,7 +48,7 @@ links: # 朋友
     url: https://www.yunyoujun.cn/
 
 social:
-  - name: "Vingur Zhou"
+  - name: "GitHub"
     icon: "/images/logo-github.svg"
     url: https://github.com/Vingurzhou
   - name: "谁在胡言乱语"
@@ -88,7 +86,7 @@ gitalk: # gitalk 评论
 
 # see https://github.com/tea3/hexo-related-popular-posts
 related_post:
-  enable: true
+  enable: false
   config:
     maxCount: 5 # Maximum count of a list. default 5
     ulClass: # Class name of element. deafult 'popular-posts'
