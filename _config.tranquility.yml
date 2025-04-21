@@ -132,7 +132,7 @@ timeline:
 
 # 标签云
 tagcloud:
-  fancy: true
+  fancy: false
   min_font: 14
   max_font: 30
 
@@ -213,4 +213,4 @@ search:
   content: true
 
 nav:
-  sticky: true
+  sticky: false
