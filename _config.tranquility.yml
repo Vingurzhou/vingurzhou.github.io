@@ -13,13 +13,15 @@ favicon: # 配置网页图标
 subpage: # 开启“子页”功能，详见 README
   enable: true
   pages:
-    - name: 友链接力 # 文章的分类（category）名，如 developer
+    - name: 友链接力 
       path: https://www.travellings.cn/go.html 
-      title: 🚇 # 菜单名，如 开发者
-    - name: article # 子页标识，如 developer
-      title: 文章 # 显式在导航栏的菜单名，如 开发者
-      icon: /images/icon/icon-article.svg # 图标的路径
-      description: 文章列表 # 描述
+      title: 🚇 
+    - name: article 
+      title: 文章 
+      icon: /images/icon/icon-article.svg 
+    - name:  event
+      title: 日记
+      icon: /images/icon/icon-event.svg
 
 index: # 配置首页个性化内容
   motto: "长风破浪会有时！"
