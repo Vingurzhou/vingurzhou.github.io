@@ -31,18 +31,16 @@ index: # 配置首页个性化内容
     - 朝如青丝暮成雪
   photo: /images/about.jpg
   about:
-    title: 关于
+    title: 关于我
     text:
-      - 人类的八十亿分之一，宇宙的尘埃
-      -
-      - 
-      -
-      - 
+      - INFJ|猫奴|码农|二次元
+      - 平时一个人打王者、k歌
+      - 梦想是打卡世界各地～
 
 foot:
   title:
-    - "海内存知己"
-    - "天涯若比邻"
+    - "曩喆多遗尘"
+    - "清风来四隅"
   linksRows: 4
 
 links: # 朋友
