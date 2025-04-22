@@ -19,10 +19,11 @@ subpage: # 开启“子页”功能，详见 README
     - name: article 
       title: 文章 
       icon: /images/icon/icon-article.svg 
+      description: '博主是做后端开发的，主要是型分布式项目和数据处理相关经验。在这里会记录一些自己的踩坑经历，分享一些优质的项目设计方案。'
     - name:  event
       title: 日记
       icon: /images/icon/icon-event.svg
-      description: '我是个很怀旧的人，在这写下每个阶段的感悟。希望以后回首的时候，都还是从前那个少年。'
+      description: '我是个很怀旧的人，在这里写下每个阶段的感悟。希望以后回首的时候，都还是从前那个少年。'
 
 index: # 配置首页个性化内容
   motto: "中二病也要太恋爱！"
@@ -48,6 +49,8 @@ links: # 朋友
     url: https://www.yunyoujun.cn/
   - name: "bootun"
     url: https://github.com/bootun/
+  - name: "NingBo Wang"
+    url: https://github.com/hqwangningbo
 
 social:
   - name: "Vingur Zhou"
