@@ -19,7 +19,7 @@ subpage: # 开启“子页”功能，详见 README
     - name: article 
       title: 文章 
       icon: /images/icon/icon-article.svg 
-      description: '博主是做后端开发的，主要是型分布式项目和数据处理相关经验。在这里会记录一些自己的踩坑经历，分享一些优质的项目设计方案。'
+      description: '博主是做后端开发的，主要是大型分布式项目和数据处理相关经验。在这里会记录一些自己的踩坑经历，分享一些优质的项目设计方案。'
     - name:  event
       title: 日记
       icon: /images/icon/icon-event.svg
