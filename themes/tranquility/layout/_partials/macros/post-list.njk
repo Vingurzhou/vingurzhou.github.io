@@ -2,7 +2,6 @@
   {% set sticky = p.sticky %}
   <div class="post-card{{ '--sticky' if sticky else '' }}">
     <div class="post__head">
-      {% if p.category==event %}●{% endif %}
       <a href="{{ url_for(p.path) }}" class="post-title hover-line">{{ p.title or "未命名" }}</a>
       {% if p.sticky %}<span class="post-title-pined">置顶</span>{% endif %}
     </div>

@@ -1,7 +1,7 @@
 ---
 title: 《企业级中台设计》
 date: 2023-05-06
-timeline: app
+timeline: article
 category: article
 tag: 
   - redis

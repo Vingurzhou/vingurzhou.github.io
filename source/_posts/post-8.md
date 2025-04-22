@@ -1,5 +1,5 @@
 ---
-title: 《LFSR(线性反馈移位寄存器)加扰》
+title: 《线性反馈移位寄存器(LFSR)加扰》
 date: 2025-03-22
 tags:
     - lfsr
