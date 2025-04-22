@@ -144,7 +144,7 @@ mermaid:
   options:
     startOnload: true
 
-    search:
+search:
   path: search.json
   enable: true
   field: post
