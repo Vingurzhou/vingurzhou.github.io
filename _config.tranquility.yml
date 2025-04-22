@@ -69,7 +69,7 @@ gitalk: # gitalk 评论
   enable: true
   owner: Vingurzhou
   admin: Vingurzhou
-  repo: https://github.com/Vingurzhou/vingurzhou.github.io
+  repo: vingurzhou.github.io
   clientID: Ov23liNUccG2yvllnzXb
   clientSecret: eb0dcf185b111188127a7c856c001c376416eba0
 
