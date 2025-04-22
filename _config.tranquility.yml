@@ -25,10 +25,10 @@ subpage: # 开启“子页”功能，详见 README
       description: '我是个很怀旧的人，在这写下每个阶段的感悟。希望以后回首的时候，都还是从前那个少年。'
 
 index: # 配置首页个性化内容
-  motto: "长风破浪会有时！"
+  motto: "中二病也要太恋爱！"
   poem:
-    - 君不见高堂明镜悲白发
-    - 朝如青丝暮成雪
+    - 崩裂吧精神
+    - 崩裂吧精神
   photo: /images/about.jpg
   about:
     title: 关于我
@@ -66,12 +66,12 @@ reward: # 赞赏
 
 # see https://github.com/gitalk/gitalk
 gitalk: # gitalk 评论
-  enable: false
-  owner: # MUST HAVE, Your Github Username
-  admin:
-  repo: # MUST HAVE, The name of the repo you use to store Gitment comments
-  clientID: # MUST HAVE, Github client id for the Gitment
-  clientSecret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  enable: true
+  owner: Vingurzhou
+  admin: Vingurzhou
+  repo: https://github.com/Vingurzhou/vingurzhou.github.io
+  clientID: Ov23liNUccG2yvllnzXb
+  clientSecret: eb0dcf185b111188127a7c856c001c376416eba0
 
   distractionFreeMode: false # Facebook-like distraction free mode
   # When the official proxy is not available, you can change it to your own proxy address
