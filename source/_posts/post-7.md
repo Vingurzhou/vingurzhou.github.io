@@ -1,5 +1,5 @@
 ---
-title: 高中毕业了
+title: 高中毕业
 date: 2018-06-29
 category: event
 timeline: event
