@@ -14,11 +14,45 @@ timeline: article
 
 ### 找到聊天记录位置
 
-```bash
+```shell
 open ~/Library/Containers/com.tencent.xinWeChat/Data/Library/Application\ Support/com.tencent.xinWeChat/2.0b4.0.9
 ```
 
 ### 数据库解密
+
+1. 查看 SIP 状态
+
+```shell
+csrutil status
+```
+
+2. 进入 Recovery 模式
+
+3. 关闭 SIP
+
+```shell
+csrutil disable
+```
+
+4. attach到运行的 WeChat
+
+```shell
+lldb -p <pid>
+```
+
+```shell
+br set -n sqlite3_key
+```
+
+```
+c
+```
+
+```
+memory read --size 1--format
+```
+
+6. 查看数据
 
 ## 对模型进行微调
 
