@@ -26,8 +26,7 @@ subpage: # 开启“子页”功能，详见 README
       description: '我是个很怀旧的人，在这里写下每个阶段的感悟。希望以后回首的时候，都还是从前那个少年。'
     - name:  comment
       title: 留言板
-      path: /comment/index.html
-
+      path: /page/comment
 index: # 配置首页个性化内容
   motto: "中二病也要太恋爱！"
   poem:
