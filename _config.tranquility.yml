@@ -30,7 +30,7 @@ subpage: # 开启“子页”功能，详见 README
 index: # 配置首页个性化内容
   motto: "中二病也要太恋爱！"
   poem:
-    - 崩裂吧精神
+    - 破碎吧现实
     - 崩裂吧精神
   photo: /images/about.jpg
   about:
