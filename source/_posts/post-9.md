@@ -70,7 +70,7 @@ memory read --size 1--format
 
 ## 微信接入ai
 
-### [部署gewe](https://github.com/Vingurzhou/deploy/blob/main/docker-compose.yml#L119)
+### 部署gewe--->[GitHub](https://github.com/Vingurzhou/deploy/blob/main/docker-compose.yml#L119)
 
 ![图片标题](1.png)
 
@@ -86,4 +86,4 @@ curl --location --request POST 'http://127.0.0.1:2531/v2/api/tools/setCallback' 
 }'
 ```
 
-### [编写接口逻辑](https://github.com/Vingurzhou/wechat-robot/blob/main/internal/logic/callbacklogic.go)
+### 编写接口逻辑--->[GitHub](https://github.com/Vingurzhou/wechat-robot/blob/main/internal/logic/callbacklogic.go)
