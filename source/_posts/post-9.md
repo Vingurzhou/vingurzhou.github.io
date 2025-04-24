@@ -3,6 +3,10 @@ title: 《通过ai实现微信聊天分身》
 date: 2025-04-22 21:42:43
 tags:
     - ai
+    - wechat
+    - gewe
+    - docker
+    - sqlite
 category: article
 timeline: article
 ---
@@ -67,6 +71,8 @@ memory read --size 1--format
 ## 微信接入ai
 
 ### [部署gewe](https://github.com/Vingurzhou/deploy/blob/main/docker-compose.yml#L119)
+
+![图片标题](1.png)
 
 ### 设置回调接口
 
