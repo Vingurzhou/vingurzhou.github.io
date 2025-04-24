@@ -80,4 +80,4 @@ curl --location --request POST 'http://127.0.0.1:2531/v2/api/tools/setCallback' 
 }'
 ```
 
-### [编写接口逻辑](https://github.com/Vingurzhou/wechat-robot/tree/main/internal/logic)
+### [编写接口逻辑](https://github.com/Vingurzhou/wechat-robot/blob/main/internal/logic/callbacklogic.go)
