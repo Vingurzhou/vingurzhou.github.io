@@ -7,7 +7,7 @@ tags:
 timeline: article
 category: article
 ---
-隔壁部门丢了个多项式让我对卫星数据进行数据加扰。首先哥们不懂加扰，其次哥们不懂卫星。emmm...只能学了。
+隔壁部门丢了个多项式让我对卫星数据进行数据加扰。emmm...首先哥们不懂加扰，其次哥们不懂卫星，只能上网看看了。
 <!--more-->
 
 ## 什么是数据加扰
@@ -59,4 +59,4 @@ LFSR（线性反馈移位寄存器，Linear Feedback Shift Register）是一种�
 
 若多项式为本原多项式，序列周期可达 \( 2^4 - 1 = 15 \)。
 
-## 逻辑实现--->[GitHub](<https://github.com/Vingurzhou/pkg/blob/main/satellite/cmd.go>)
+## 最终逻辑实现--->[GitHub](<https://github.com/Vingurzhou/pkg/blob/main/satellite/cmd.go>)
