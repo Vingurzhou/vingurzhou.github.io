@@ -9,8 +9,9 @@
       <div class="post-content__head">
         <div class="post-title">{{ page.title or "未命名" }}</div>
         <div class="post-info">
-          {{ partial("_partials/macros/tags.njk", {tags: page.tags}) }}
-          <span class="post-date">{{ date(page.date) }}</span>
+        <!--  {{ partial("_partials/macros/tags.njk", {tags: page.tags}) }} -->
+          <span class="post-date">时间：{{ date(page.date) }}</span>
+          <span class="post-date">作者：{{ page.author }}</span>
         </div>
       </div>
       {% if page.toc %}

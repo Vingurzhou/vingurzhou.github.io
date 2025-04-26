@@ -6,6 +6,7 @@ tags:
     - 对称加扰
 timeline: article
 category: article
+author: 周文喆
 ---
 隔壁部门丢了个多项式让我对卫星数据进行数据加扰。emmm...首先哥们不懂加扰，其次哥们不懂卫星，只能上网看看了。
 <!--more-->

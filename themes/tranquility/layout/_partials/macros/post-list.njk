@@ -5,6 +5,10 @@
       <a href="{{ url_for(p.path) }}" class="post-title hover-line">{{ p.title or "未命名" }}</a>
       {% if p.sticky %}<span class="post-title-pined">置顶</span>{% endif %}
     </div>
+     <div class="post-info">
+          <span class="post-date">时间：{{ date(p.date) }}</span>
+          <span class="post-date">作者：{{ p.author }}</span>
+        </div>
     <div class="post__body">
       {% if p.cover %}
         <a href="{{ url_for(p.path) }}"

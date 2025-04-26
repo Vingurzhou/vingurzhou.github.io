@@ -13,15 +13,15 @@ favicon: # 配置网页图标
 subpage: # 开启“子页”功能，详见 README
   enable: true
   pages:
-    - name: traveling
-      path: https://www.travellings.cn/go.html 
-      title: 🚇 
     - name: article 
       title: 文章 
       icon: /images/icon/icon-article.svg 
     - name:  event
       title: 日记
       icon: /images/icon/icon-event.svg
+    - name: traveling
+      path: https://www.travellings.cn/go.html 
+      title: 开往 
     - name:  comment
       title: 留言板
       path: /page/comment
