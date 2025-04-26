@@ -10,7 +10,7 @@ tags:
 category: article
 timeline: article
 author: 周文喆
-
+toc: true
 ---
 
 起因是朋友认识了个异地的男生，但是表白失败了，我寻思亲不到摸不着跟ai有啥区别，加上以前玩微信机器人，所以打算以他俩的聊天记录模拟一个微信号给她。
@@ -76,7 +76,7 @@ memory read --size 1--format
 
 ## 微信接入ai
 
-### 部署gewe--->[GitHub](https://github.com/Vingurzhou/deploy/blob/main/docker-compose.yml#L119)
+### 部署gewe→[GitHub](https://github.com/Vingurzhou/deploy/blob/main/docker-compose.yml#L119)
 
 ![图片标题](1.png)
 
@@ -92,7 +92,7 @@ curl --location --request POST 'http://127.0.0.1:2531/v2/api/tools/setCallback' 
 }'
 ```
 
-### 编写接口逻辑--->[GitHub](https://github.com/Vingurzhou/wechat-robot/blob/main/internal/logic/callbacklogic.go)
+### 编写接口逻辑→[GitHub](https://github.com/Vingurzhou/wechat-robot/blob/main/internal/logic/callbacklogic.go)
 
 ## 最终效果
 
