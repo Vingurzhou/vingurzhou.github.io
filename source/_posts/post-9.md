@@ -72,6 +72,8 @@ memory read --size 1--format
 
 ### 训练
 
+![图片标题](4.png)
+
 ## 微信接入ai
 
 ### 部署gewe--->[GitHub](https://github.com/Vingurzhou/deploy/blob/main/docker-compose.yml#L119)
@@ -91,3 +93,7 @@ curl --location --request POST 'http://127.0.0.1:2531/v2/api/tools/setCallback' 
 ```
 
 ### 编写接口逻辑--->[GitHub](https://github.com/Vingurzhou/wechat-robot/blob/main/internal/logic/callbacklogic.go)
+
+## 最终效果
+
+效果很差😓，大家别看我的帖子了～
