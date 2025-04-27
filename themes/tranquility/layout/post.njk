@@ -11,7 +11,9 @@
         <div class="post-info">
         <!--  {{ partial("_partials/macros/tags.njk", {tags: page.tags}) }} -->
           <span class="post-date">时间：{{ date(page.date) }}</span>
-          <span class="post-date">作者：{{ page.author }}</span>
+          {% if page.author %}
+            <span class="post-date">作者：{{ page.author }}</span>
+          {% endif %}
         </div>
       </div>
       {% if page.toc %}
