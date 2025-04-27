@@ -16,9 +16,6 @@ subpage: # 开启“子页”功能，详见 README
     - name: article 
       title: 文章 
       icon: /images/icon/icon-article.svg 
-    - name:  event
-      title: 日记
-      icon: /images/icon/icon-event.svg
     - name: traveling
       path: https://www.travellings.cn/go.html 
       title: 开往 
