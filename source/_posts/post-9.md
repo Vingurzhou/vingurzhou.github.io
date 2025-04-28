@@ -2,12 +2,9 @@
 title: 《通过ai实现微信聊天分身》
 date: 2025-04-22 21:42:43
 tags:
-    - ai
+    - mlx
+    - lora
     - wechat
-    - gewe
-    - docker
-    - sqlite
-    - llm
 category: article
 timeline: article
 author: 周文喆
@@ -82,9 +79,9 @@ valid.jsonl
 ### 转换Hugging Face模型
 
 ```bash
-➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.convert --hf-path Qwen/Qwen2.5-7B-Instruct --mlx-path mlx_qwen_small -q
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.convert --hf-path Qwen/Qwen2.5-14B-Instruct --mlx-path Qwen2.5-14B-mlx -q
 [INFO] Loading
-Fetching 11 files: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 11/11 [00:00<00:00, 24231.80it/s]
+Fetching 15 files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:00<00:00, 28301.65it/s]
 [INFO] Quantizing
 [INFO] Quantized model with 4.501 bits per weight.
 ```
@@ -92,21 +89,21 @@ Fetching 11 files: 100%|██████████████████�
 ### 训练
 
 ```bash
-➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.lora --model mlx_qwen_small --train --iters 600  --data data
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.lora --model Qwen2.5-14B-mlx --train --iters 600  --data data --batch-size 1 --num-layers 4 
+
 Loading pretrained model
 Loading datasets
 Training
-Trainable parameters: 0.027% (0.819M/3085.939M)
+Trainable parameters: 0.004% (0.524M/14770.034M)
 Starting training..., iters: 600
-Iter 1: Val loss 4.497, Val took 1.983s
-Iter 10: Train loss 4.744, Learning Rate 1.000e-05, It/sec 1.302, Tokens/sec 92.802, Trained Tokens 713, Peak mem 2.227 GB
-Iter 20: Train loss 3.246, Learning Rate 1.000e-05, It/sec 1.346, Tokens/sec 99.905, Trained Tokens 1455, Peak mem 2.227 GB
+Iter 1: Val loss 4.594, Val took 8.173s
+Iter 10: Train loss 4.793, Learning Rate 1.000e-05, It/sec 1.693, Tokens/sec 31.829, Trained Tokens 188, Peak mem 8.422 GB
 ```
 
 ### 推理
 
 ```bash
-➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.generate --model ./mlx_qwen_small --adapter-path adapters --prompt "你在干嘛"
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.generate --model Qwen2.5-14B-mlx --adapter-path adapters --prompt "你在干嘛"
 ==========
 我是来自阿里云的超大规模语言模型，我正在为你提供高质量的文本生成服务。
 ==========
