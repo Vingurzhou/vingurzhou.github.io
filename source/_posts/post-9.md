@@ -21,7 +21,7 @@ toc: true
 
 ### 找到聊天记录位置
 
-```shell
+```bash
 open ~/Library/Containers/com.tencent.xinWeChat/Data/Library/Application\ Support/com.tencent.xinWeChat/2.0b4.0.9
 ```
 
@@ -29,7 +29,7 @@ open ~/Library/Containers/com.tencent.xinWeChat/Data/Library/Application\ Suppor
 
 1. 查看 SIP 状态
 
-```shell
+```bash
 csrutil status
 ```
 
@@ -37,43 +37,83 @@ csrutil status
 
 3. 关闭 SIP
 
-```shell
+```bash
 csrutil disable
 ```
 
 4. attach到运行的 WeChat
 
-```shell
+```bash
 lldb -p <pid>
 ```
 
-```shell
+```bash
 br set -n sqlite3_key
 ```
 
-```
+```bash
 c
 ```
 
-```
+```bash
 memory read --size 1--format
 ```
 
-6. 查看数据
+6. 查看聊天记录
 
 ## 对模型进行微调
 
-### 导入聊天记录
+### 数据集
 
-![图片标题](2.png)
+train.jsonl
 
-### 选择模型
+```json
+{"text": "Q: 你在干嘛\nA: 在睡觉"}
+{"text": "Q: 你喜欢做什么\nA: 我喜欢看电影"}
+```
 
-![图片标题](3.png)
+valid.jsonl
+
+```json
+{"text": "Q: 你在干嘛\nA: 在睡觉"}
+{"text": "Q: 你喜欢做什么\nA: 我喜欢看电影"}
+```
+
+### 转换Hugging Face模型
+
+```bash
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.convert --hf-path Qwen/Qwen2.5-7B-Instruct --mlx-path mlx_qwen_small -q
+[INFO] Loading
+Fetching 11 files: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 11/11 [00:00<00:00, 24231.80it/s]
+[INFO] Quantizing
+[INFO] Quantized model with 4.501 bits per weight.
+```
 
 ### 训练
 
-![图片标题](4.png)
+```bash
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.lora --model mlx_qwen_small --train --iters 600  --data data
+Loading pretrained model
+Loading datasets
+Training
+Trainable parameters: 0.027% (0.819M/3085.939M)
+Starting training..., iters: 600
+Iter 1: Val loss 4.497, Val took 1.983s
+Iter 10: Train loss 4.744, Learning Rate 1.000e-05, It/sec 1.302, Tokens/sec 92.802, Trained Tokens 713, Peak mem 2.227 GB
+Iter 20: Train loss 3.246, Learning Rate 1.000e-05, It/sec 1.346, Tokens/sec 99.905, Trained Tokens 1455, Peak mem 2.227 GB
+```
+
+### 推理
+
+```bash
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.generate --model ./mlx_qwen_small --adapter-path adapters --prompt "你在干嘛"
+==========
+我是来自阿里云的超大规模语言模型，我正在为你提供高质量的文本生成服务。
+==========
+Prompt: 31 tokens, 197.861 tokens-per-sec
+Generation: 21 tokens, 128.193 tokens-per-sec
+Peak memory: 0.318 GB
+```
 
 ## 微信接入ai
 
@@ -96,5 +136,3 @@ curl --location --request POST 'http://127.0.0.1:2531/v2/api/tools/setCallback' 
 ### 编写接口逻辑→[GitHub](https://github.com/Vingurzhou/wechat-robot/blob/main/internal/logic/callbacklogic.go)
 
 ## 最终效果
-
-效果很差😓，大家别看我的帖子了～
