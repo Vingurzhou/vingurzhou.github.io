@@ -125,11 +125,7 @@ timeline:
     - name: article
       color: "#ee936c"
       icon: /images/icon/icon-article.svg
-      checked: true
-    - name: app
-      color: "#60a465"
-      icon: /images/icon/icon-app.svg
-      checked: true
+      checked: false
     - name: event
       color: "#568dc4"
       icon: /images/icon/icon-event.svg
