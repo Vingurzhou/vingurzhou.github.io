@@ -21,23 +21,23 @@ toc: true
 open ~/Library/Containers/com.tencent.xinWeChat/Data/Library/Application\ Support/com.tencent.xinWeChat/2.0b4.0.9
 ```
 
-### 数据库解密
+### 逆向微信
 
-1. 查看 SIP 状态
+#### 查看 SIP 状态
 
 ```bash
 csrutil status
 ```
 
-2. 进入 Recovery 模式
+#### 进入 Recovery 模式
 
-3. 关闭 SIP
+#### 关闭 SIP
 
 ```bash
 csrutil disable
 ```
 
-4. attach到运行的 WeChat
+#### attach到运行的 WeChat
 
 ```bash
 lldb -p <pid>
@@ -55,20 +55,13 @@ c
 memory read --size 1--format
 ```
 
-6. 查看聊天记录
+#### 获取密钥
+
+### 查看数据
 
 ## 对模型进行微调
 
 ### 数据集
-
-train.jsonl
-
-```json
-{"text": "Q: 你在干嘛\nA: 在睡觉"}
-{"text": "Q: 你喜欢做什么\nA: 我喜欢看电影"}
-```
-
-valid.jsonl
 
 ```json
 {"text": "Q: 你在干嘛\nA: 在睡觉"}
