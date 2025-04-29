@@ -102,3 +102,12 @@ theme: tranquility
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
+
+encrypt: # hexo-blog-encrypt
+  abstract: 这里有些东西加密了, 需要密码才能访问.
+  message: 嘿, 这里需要密码.
+  # tags:
+  # - {name: encryptAsDiary, password: passwordA}
+  # - {name: encryptAsTips, password: passwordB}
+  wrong_pass_message: 哦, 这是一个无效的密码. 请检查并且重试.
+  wrong_hash_message: 哦, 这些加密内容不能被访问, 但你仍然能看一看.
