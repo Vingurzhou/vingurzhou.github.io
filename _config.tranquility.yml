@@ -120,7 +120,7 @@ zh_font:
     - normal
     - bold
 
- 配置时间线 参考 README.md
+# 配置时间线 参考 README.md
 timeline:
   enable: false
   order: false # 是否按时间正序展示，false 为倒序
@@ -129,7 +129,15 @@ timeline:
       color: "#ee936c"
       icon: /images/icon/icon-article.svg
       checked: false
-      
+    - name: app
+      color: "#60a465"
+      icon: /images/icon/icon-app.svg
+      checked: true
+    - name: event
+      color: "#568dc4"
+      icon: /images/icon/icon-event.svg
+      checked: false
+
 # 标签云
 tagcloud:
   fancy: false
