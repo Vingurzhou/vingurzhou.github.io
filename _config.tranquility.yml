@@ -16,6 +16,9 @@ subpage: # 开启“子页”功能，详见 README
     - name: article 
       title: 文章 
       icon: /images/icon/icon-article.svg 
+    - name: note 
+      title: 笔记
+      icon: /images/icon/icon-blog.svg 
     - name: traveling
       path: https://www.travellings.cn/go.html 
       title: 开往 
@@ -119,7 +122,7 @@ zh_font:
 
 # 配置时间线 参考 README.md
 timeline:
-  enable: true
+  enable: false
   order: false # 是否按时间正序展示，false 为倒序
   items:
     - name: article

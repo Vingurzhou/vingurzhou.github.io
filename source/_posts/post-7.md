@@ -2,7 +2,6 @@
 title: 《C等青春》
 date: 2018-06-29
 category: article
-timeline: article
 tag:
     - 散文
     - 自传
