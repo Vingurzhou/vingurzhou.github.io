@@ -120,7 +120,16 @@ zh_font:
     - normal
     - bold
 
-
+ 配置时间线 参考 README.md
+timeline:
+  enable: false
+  order: false # 是否按时间正序展示，false 为倒序
+  items:
+    - name: article
+      color: "#ee936c"
+      icon: /images/icon/icon-article.svg
+      checked: false
+      
 # 标签云
 tagcloud:
   fancy: false
