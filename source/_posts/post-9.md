@@ -23,21 +23,21 @@ open ~/Library/Containers/com.tencent.xinWeChat/Data/Library/Application\ Suppor
 
 ### 逆向微信
 
-#### 查看 SIP 状态
+1、查看 SIP 状态
 
 ```bash
 csrutil status
 ```
 
-#### 进入 Recovery 模式
+2、进入 Recovery 模式
 
-#### 关闭 SIP
+3、关闭 SIP
 
 ```bash
 csrutil disable
 ```
 
-#### attach到运行的 WeChat
+4、attach到运行的 WeChat
 
 ```bash
 lldb -p <pid>
@@ -55,7 +55,7 @@ c
 memory read --size 1--format
 ```
 
-#### 获取密钥
+5、获取密钥
 
 ### 查看数据
 
