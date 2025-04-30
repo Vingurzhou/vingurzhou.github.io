@@ -1,5 +1,5 @@
 ---
-title: 《通过ai实现微信聊天分身》
+title: 《如何实现微信聊天分身》
 date: 2025-04-22 21:42:43
 tags:
     - mlx
@@ -61,14 +61,14 @@ memory read --size 1--format
 
 ## 对模型进行微调
 
-### 数据集
+### 数据处理
 
 ```json
 {"text": "Q: 你在干嘛\nA: 在睡觉"}
 {"text": "Q: 你喜欢做什么\nA: 我喜欢看电影"}
 ```
 
-### 转换Hugging Face模型
+### 量化模型
 
 ```bash
 ➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.convert --hf-path Qwen/Qwen2.5-14B-Instruct --mlx-path Qwen2.5-14B-mlx -q
@@ -92,16 +92,11 @@ Iter 1: Val loss 4.594, Val took 8.173s
 Iter 10: Train loss 4.793, Learning Rate 1.000e-05, It/sec 1.693, Tokens/sec 31.829, Trained Tokens 188, Peak mem 8.422 GB
 ```
 
-### 推理
+### 启动服务(openai api规范)
 
 ```bash
-➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.generate --model Qwen2.5-14B-mlx --adapter-path adapters --prompt "你在干嘛"
-==========
-我是来自阿里云的超大规模语言模型，我正在为你提供高质量的文本生成服务。
-==========
-Prompt: 31 tokens, 197.861 tokens-per-sec
-Generation: 21 tokens, 128.193 tokens-per-sec
-Peak memory: 0.318 GB
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.server
+2025-04-30 09:41:18,822 - INFO - Starting httpd at 127.0.0.1 on port 8080...
 ```
 
 ## 微信接入ai
