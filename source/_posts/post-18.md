@@ -11,3 +11,10 @@ rate/mark
 stimuli/reward
 composed/put together
 boost/burst
+
+看题顺序
+
+  1. title
+  2. heading
+  3. question
+  4. body

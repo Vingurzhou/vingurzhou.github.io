@@ -1,10 +1,12 @@
 ---
-title: 《如何实现微信聊天分身》
+title: 《微信聊天分身》
 date: 2025-04-22 21:42:43
 tags:
     - mlx
     - lora
     - wechat
+    - chroma
+    - rag
 category: article
 author: 周文喆
 toc: true
@@ -59,13 +61,18 @@ memory read --size 1--format
 
 ### 查看数据
 
+![图片标题](2.png)
+
 ## 对模型进行微调
 
 ### 数据处理
 
 ```json
-{"text": "Q: 你在干嘛\nA: 在睡觉"}
-{"text": "Q: 你喜欢做什么\nA: 我喜欢看电影"}
+{"prompt": "你好呀", "completion": "你好"}
+{"prompt": "我是朋友介绍的 请问你要找对象吗 想认识一下可以吗", "completion": "6"}
+{"prompt": "本来还想谈个恋爱 居然这么快就被识破了", "completion": "我有防撤回…"}
+{"prompt": "好吧 其实我也想跟你咨询一下显卡的 可以吗 听说你好像是学计算机之类的专业", "completion": "我不是计算机的…"}
+{"prompt": "可以吗", "completion": "下班了，回去再说"}
 ```
 
 ### 量化模型
@@ -98,6 +105,8 @@ Iter 10: Train loss 4.793, Learning Rate 1.000e-05, It/sec 1.693, Tokens/sec 31.
 ➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.server
 2025-04-30 09:41:18,822 - INFO - Starting httpd at 127.0.0.1 on port 8080...
 ```
+
+## 接入向量数据库
 
 ## 微信接入ai
 
