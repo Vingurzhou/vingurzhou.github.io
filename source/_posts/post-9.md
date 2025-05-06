@@ -10,7 +10,7 @@ tags:
 category: article
 author: 周文喆
 toc: true
-cover: /image/3.jpg
+cover: /image/3.png
 ---
 
 起因是朋友认识了个异地的男生，但是表白失败了，我寻思亲不到摸不着跟ai有啥区别，加上以前玩微信机器人，所以打算以他俩的聊天记录模拟一个微信号给她。
