@@ -31,6 +31,13 @@ graph TB
 
 ### 地图题
 
+* in
+* left、right
+* northern、
+* far side from 远处的
+* in a bend on 在转弯处
+* forks 交叉口
+
 ## 单词
 
 * hectares 公顷
@@ -40,3 +47,6 @@ graph TB
 * rhythm 节奏
 * cheese 奶酪
 * demonstration 示威游行
+* woods 树林
+* temple 圣殿
+* entry 进入
