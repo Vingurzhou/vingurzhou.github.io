@@ -13,9 +13,15 @@ toc: true
 cover: /image/3.png
 ---
 
+
 起因是朋友认识了个异地的男生，但是表白失败了，我寻思亲不到摸不着跟ai有啥区别，加上以前玩微信机器人，所以打算以他俩的聊天记录模拟一个微信号给她。
 （以前用的itchat协议被封了，这次换大佬弄的ipad协议）
 <!--more-->
+
+|OS|CPU|GPU|内存|基座模型|知识库|机器学习框架|
+|-|-|-|-|-|-|-|
+|macOS 15.4.1|Apple M1|Apple M1|16G|Qwen3-14B|dify |mlx|
+
 ## 导出微信聊天记录
 
 ### 找到聊天记录位置
@@ -79,7 +85,7 @@ memory read --size 1--format
 ### 量化模型
 
 ```bash
-➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.convert --hf-path Qwen/Qwen2.5-14B-Instruct --mlx-path Qwen2.5-14B-mlx -q
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.convert --hf-path Qwen/Qwen3-14B -q
 [INFO] Loading
 Fetching 15 files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 15/15 [00:00<00:00, 28301.65it/s]
 [INFO] Quantizing
@@ -89,8 +95,7 @@ Fetching 15 files: 100%|██████████████████�
 ### 训练
 
 ```bash
-➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.lora --model Qwen2.5-14B-mlx --train --iters 600  --data data --batch-size 1 --num-layers 4 
-
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.lora --model mlx_model --train --data chat --batch-size 1 --num-layers 4 
 Loading pretrained model
 Loading datasets
 Training
@@ -100,14 +105,20 @@ Iter 1: Val loss 4.594, Val took 8.173s
 Iter 10: Train loss 4.793, Learning Rate 1.000e-05, It/sec 1.693, Tokens/sec 31.829, Trained Tokens 188, Peak mem 8.422 GB
 ```
 
-### 启动服务(openai api规范)
+### 启动服务
+>
+> openai api规范
 
 ```bash
-➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.server
+➜  ~/Code/mlx-lm git:(main) ✗ mlx_lm.server --model mlx_model --adapter-path adapters  --use-default-chat-template
 2025-04-30 09:41:18,822 - INFO - Starting httpd at 127.0.0.1 on port 8080...
 ```
 
-## 接入向量数据库
+## 接入rag
+
+### 部署dify
+
+### 上传数据
 
 ## 微信接入ai
 
@@ -123,7 +134,7 @@ curl --location --request POST 'http://127.0.0.1:2531/v2/api/tools/setCallback' 
 --header 'Content-Type: application/json' \
 --data-raw '{
     "token": "1a856e3f100e48bbaf8ff3cb68bfe3d8",
-    "callbackUrl": "http://www.baidu.com"
+    "callbackUrl": "http://127.0.0.1:8888/v1/callback"
 }'
 ```
 
