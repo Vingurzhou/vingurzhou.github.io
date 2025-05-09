@@ -6,7 +6,10 @@ tags:
 category: article
 author: 周文喆
 toc: true
+cover: /image/4.webp
 ---
+Mac 拥有苹果自研芯片和 macOS 系统的深度整合，提供流畅的用户体验、高效能耗比、强大的安全性和优秀的图形处理能力，尤其适合创意设计、视频剪辑和开发等专业场景，同时生态系统闭环良好，设备间协作便捷。
+<!-- more -->
 ## Automator
 
 macOS 自带的自动化工具，帮助你批量处理重复任务或创建工作流。
@@ -26,6 +29,8 @@ macOS 上最流行的包管理器，用于安装、更新、卸载命令行工�
 ### zsh
 
 比 bash 更现代的 shell，支持自动补全、插件系统与更强的脚本功能。
+
+### neofetch
 
 ```shell
 ➜  ~ neofetch
@@ -52,13 +57,40 @@ macOS 上最流行的包管理器，用于安装、更新、卸载命令行工�
 
 Python 多版本管理工具，可轻松切换和管理不同的 Python 版本。
 
+```shell
+➜  ~ pyenv versions
+  system
+  3.8.20
+  3.9.20
+* 3.10.14 (set by /Users/zhouwenzhe/.python-version)
+  3.12.9
+```
+
 ### gvm
 
 Go 语言版本管理工具，便于安装、切换和卸载不同版本的 Go。
 
+```shell
+➜  ~ gvm list
+gvm gos (installed)
+   go1.16
+   go1.18
+=> go1.21
+   go1.23.3
+   system
+```
+
 ### nvm
 
 Node.js 版本管理工具，方便开发者在多个项目间切换不同版本。
+
+```shell
+➜  ~ nvm list
+       v14.21.3
+->     v16.20.2
+       v18.20.4
+        v23.1.0
+```
 
 ## Cursor
 
@@ -107,7 +139,6 @@ Xcode 模拟器支持通过 GPX 文件模拟设备的地理位置，用于测试
         <name>China Shanghai Weizhan Road</name>
     </wpt>
 </gpx>
-
 ```
 
 ## OrbStack
