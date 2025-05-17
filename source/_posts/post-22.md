@@ -1,11 +1,16 @@
 ---
-title: 《google api替代方案》
+title: 《0成本让ai拥有搜索功能》
 toc: true
 date: 2025-05-12 14:50:03
 tags:
-category:
+    - ai
+    - dify
+    - selenium
+    - spider
+    - mcp
+category: article 
 ---
-## 对比
+## 爬虫选型
 
 | 特性                | Requests                          | Selenium                          | Google Custom Search JSON API       |
 |---------------------|-----------------------------------|-----------------------------------|-------------------------------------|
@@ -17,18 +22,19 @@ category:
 | **合法性**          | 易违反服务条款                   | 易违反服务条款                   | 完全合法                            |
 | **成本**            | 免费                              | 免费                              | 免费 100 次/天，超额付费           |
 
+## 数据爬取
+
+### 启动chrome
 <!-- ## 下载引擎
 
 ### [查看Version](chrome://settings/help)
 
 ### [下载ChromeDriver](https://googlechromelabs.github.io/chrome-for-testing/) -->
-## 启动chrome
-
 ```shell
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome  --remote-debugging-port=9222 --user-data-dir="/Users/zhouwenzhe/Code/mcp-server/profiles"
 ```
 
-## 爬取数据
+### 爬取
 
 ```python
 from selenium import webdriver
@@ -43,7 +49,7 @@ with open("output.html", "w", encoding="utf-8") as f:
     f.write(driver.page_source)
 ```
 
-## 清理数据
+## 数据清理
 
 ```python
 from bs4 import BeautifulSoup
@@ -78,8 +84,61 @@ for idx, r in enumerate(results, 1):
     print("-" * 40)
 ```
 
-## ai总结
+## mcp
 
+### 服务端
+
+```python
+from mcp.server.fastmcp import FastMCP
+
+mcp = FastMCP("Demo")
+
+@mcp.tool()
+def search_google(query: str) -> list[dict]:
+    """
+    使用 Google 搜索指定关键词，并返回前几个搜索结果的标题、链接和摘要。
+    """
+
+mcp.run(transport='sse')
 ```
 
+### 客户端
+
+```python
+import asyncio
+from mcp.client.sse import sse_client
+from mcp import ClientSession
+
+
+async def main():
+    async with sse_client('http://127.0.0.1:8000/sse') as streams:
+        async with ClientSession(*streams) as session:
+            await session.initialize()
+
+            res = await session.call_tool(
+                'search_google', {
+                    'query': 'OpenAI'})
+            print(res)
+
+
+if __name__ == '__main__':
+    asyncio.run(main())
+```
+
+## 最终效果
+
+```shell
+➜  ~/Code/mcp-server python client.py
+meta=None content=[
+TextContent(type='text', text='{\n  "标题": "OpenAI",\n  "链接": "https://openai.com/",\n  "摘要": "Video showing miniature diorama scenes of toy-like characters interacting in various settings, emphasizing. Your browser does not support the video tag."\n}', annotations=None),
+TextContent(type='text', text='{\n  "标题": "OpenAI - Wikipedia",\n  "链接": "https://en.wikipedia.org/wiki/OpenAI",\n  "摘要": ""\n}', annotations=None), 
+TextContent(type='text', text='{\n  "标题": "How to use OpenAI API and API Key? New Guide (2024) - Addepto",\n  "链接": "https://addepto.com/blog/what-is-an-openai-api-and-how-to-use-it/",\n  "摘要": ""\n}', annotations=None), 
+TextContent(type='text', text='{\n  "标题": "OpenAI\'s nonprofit U-turn puts Microsoft\'s AI dominance in jeopardy",\n  "链接": "https://www.emarketer.com/content/openai-s-nonprofit-u-turn-puts-microsoft-s-ai-dominance-jeopardy",\n  "摘要": ""\n}', annotations=None), 
+TextContent(type='text', text='{\n  "标题": "How to use ChatGPT: A beginner\'s guide to getting started - Zapier",\n  "链接": "https://zapier.com/blog/how-to-use-chatgpt/",\n  "摘要": ""\n}', annotations=None), 
+TextContent(type='text', text='{\n  "标题": "OpenAI",\n  "链接": "https://en.wikipedia.org/wiki/OpenAI",\n  "摘要": "OpenAI, Inc. isan American artificial intelligence (AI) research organizationfounded in December 2015 and headquartered in San Francisco, California."\n}', annotations=None), 
+TextContent(type='text', text='{\n  "标题": "OpenAI",\n  "链接": "https://www.linkedin.com/company/openai",\n  "摘要": "OpenAI isan AI research and deployment companydedicated to ensuring that general-purpose artificial intelligence benefits all of humanity."\n}', annotations=None), 
+TextContent(type='text', text='{\n  "标题": "OpenAI",\n  "链接": "https://www.youtube.com/OpenAI",\n  "摘要": "Say hello toGPT-4o, our new flagship model which can reason across audio, vision, and text in real time."\n}', annotations=None), 
+TextContent(type='text', text='{\n  "标题": "OpenAI - X",\n  "链接": "https://x.com/openai",\n  "摘要": "We\'re excited to announce we\'ve launched several improvements toChatGPT search, and today we\'re starting to roll out a better shopping experience."\n}', annotations=None), 
+TextContent(type='text', text='{\n  "标题": "Azure OpenAI Service",\n  "链接": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",\n  "摘要": "AzureOpenAIService offers industry-leading coding and language AI models that you can fine-tune to your specific needs for a variety of use cases."\n}', annotations=None)
+] isError=False
 ```
