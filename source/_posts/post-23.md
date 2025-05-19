@@ -4,6 +4,7 @@ date: 2025-05-15 19:36:09
 tags:
     - 自传
 category: article
+music: /music/1.mp3
 ---
 
 事情发生在12号，我却是在13号早上才得知。
