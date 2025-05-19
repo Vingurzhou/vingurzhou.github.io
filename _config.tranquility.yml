@@ -21,7 +21,7 @@ subpage: # 开启“子页”功能，详见 README
       icon: /images/icon/icon-blog.svg 
     - name: album
       title: 相册
-      icon: /page/album
+      path: /page/album
     - name: traveling
       title: 开往 
       path: https://www.travellings.cn/go.html 
