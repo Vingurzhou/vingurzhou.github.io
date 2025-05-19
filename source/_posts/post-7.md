@@ -5,6 +5,7 @@ category: article
 tag:
     - 散文
     - 自传
+music: /music/2.mp3
 ---
 
 人无法同时拥有青春和对青春的感受
