@@ -1,0 +1,147 @@
+{% extends "_partials/layout.njk" %}
+{% block link %}
+  <link rel="stylesheet" type="text/css" href="{{ url_for("/css/post.css") }}"/>
+  <style>
+    .album-tabs {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+      gap: 10px;
+    }
+    .album-tab {
+      padding: 8px 20px;
+      border-radius: 20px;
+      background: #f5f5f5;
+      cursor: pointer;
+      border: 1px solid #eee;
+      transition: background 0.2s;
+    }
+    .album-tab.active {
+      background: #222;
+      color: #fff;
+      border-color: #222;
+    }
+    .album-gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 30px 0;
+    }
+    .album-gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px #0001;
+    }
+    .album-pagination {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 20px 0;
+    }
+    .album-page-btn {
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid #eee;
+      background: #fafafa;
+      cursor: pointer;
+    }
+    .album-page-btn.active {
+      background: #222;
+      color: #fff;
+      border-color: #222;
+    }
+    @media(max-width: 760px) {
+      .album-gallery {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media(max-width: 480px) {
+      .album-gallery {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+{% endblock link %}
+{% block body %}
+  <article class="post-content">
+    <div class="post-content__head">
+      <div class="post-title">{{ page.title or "未命名" }}</div>
+    </div>
+    <div class="album-tabs" id="album-tabs">
+      {% for section in page.sections %}
+        <div class="album-tab{% if loop.first %} active{% endif %}" data-index="{{ loop.index0 }}">{{ section.title }}</div>
+      {% endfor %}
+    </div>
+    <div class="post-content__body">
+      <div id="album-gallery" class="album-gallery"></div>
+      <div class="album-pagination" id="album-pagination"></div>
+    </div>
+  </article>
+  <div class="post__foot"></div>
+{% endblock body %}
+{% block script %}
+  <script>
+    // 数据准备
+    const albumSections = {{ page.sections | dump }};
+    const PHOTOS_PER_PAGE = 6;
+    let currentTab = 0;
+    let currentPage = 1;
+    function renderGallery() {
+      const photos = albumSections[currentTab].photos || [];
+      const start = (currentPage - 1) * PHOTOS_PER_PAGE;
+      const end = start + PHOTOS_PER_PAGE;
+      const pagePhotos = photos.slice(start, end);
+      const gallery = document.getElementById('album-gallery');
+      gallery.innerHTML = pagePhotos.map(url => `<img src="${url}" alt="photo" loading="lazy">`).join('');
+    }
+    function renderPagination() {
+      const photos = albumSections[currentTab].photos || [];
+      const totalPages = Math.ceil(photos.length / PHOTOS_PER_PAGE) || 1;
+      const pagination = document.getElementById('album-pagination');
+      let html = '';
+      for (let i = 1; i <= totalPages; i++) {
+        html += `<button class="album-page-btn${
+          i === currentPage
+            ? ' active'
+            : ''
+          }" data-page="${i}">${i}</button>`;
+      }
+      pagination.innerHTML = html;
+      // 绑定事件
+      Array.from(pagination.querySelectorAll('.album-page-btn')).forEach(btn => {
+        btn.onclick = function () {
+          currentPage = parseInt(this.dataset.page);
+          renderGallery();
+          renderPagination();
+          scrollToGallery();
+        };
+      });
+    }
+    function renderAll() {
+      renderGallery();
+      renderPagination();
+    }
+    function scrollToGallery() {
+      const gallery = document.getElementById('album-gallery');
+      if (gallery) {
+        gallery.scrollIntoView({behavior: 'smooth', block: 'start'});
+      }
+    }
+    // tab 切换
+    document.addEventListener('DOMContentLoaded', function () {
+      const tabs = document.querySelectorAll('#album-tabs .album-tab');
+      tabs.forEach((tab, idx) => {
+        tab.onclick = function () {
+          if (currentTab !== idx) {
+            tabs[currentTab].classList.remove('active');
+            tab.classList.add('active');
+            currentTab = idx;
+            currentPage = 1;
+            renderAll();
+          }
+        };
+      });
+      renderAll();
+    });
+  </script>
+{% endblock script %}
