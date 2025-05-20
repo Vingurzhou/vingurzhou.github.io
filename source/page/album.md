@@ -20,6 +20,10 @@ sections:
   - album/我/8b386bdc515477c93cf230441889e159.jpg
   - album/我/9a5fdc5e3973829507b81b14bd719b45.jpg
   - album/我/9e4ded01086785e6e626a9d6c18d68a7.jpg
+  - album/我/IMG_5181.jpg
+  - album/我/IMG_6151.JPG
+  - album/我/IMG_6314.JPG
+  - album/我/IMG_6315.JPG
   - album/我/a9b8f7eee2ab19c75a1629e2a10fc279.jpg
   - album/我/ac91b8e090631067d50d0116d3088664.jpg
   - album/我/f6ffce4f8bee7aaca552b4fbd020dfe1.jpg
