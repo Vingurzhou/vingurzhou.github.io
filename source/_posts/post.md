@@ -4,6 +4,7 @@ date: 2025-05-08 20:38:00
 tags:
     - rvc
     - svc
+    - ai
 category: article
 author: 周文喆
 toc: true
