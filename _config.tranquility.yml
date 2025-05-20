@@ -50,22 +50,10 @@ foot:
   linksRows: 4
 
 links: # 朋友
-  - name: "云游君"
-    url: https://www.yunyoujun.cn/
-  - name: "bootun"
-    url: https://github.com/bootun/
-  - name: "NingBo Wang"
-    url: https://github.com/hqwangningbo
 
 social:
-  - name: "Vingur Zhou"
-    icon: "/images/logo-github.svg"
-    url: https://github.com/Vingurzhou
 
 contacts:
-  - name: "zwz0123460218@icloud.com"
-    icon: "/images/icon/icon-email.svg"
-    url: "mailto:zwz0123460218@icloud.com"
 
 reward: # 赞赏
   enable: true

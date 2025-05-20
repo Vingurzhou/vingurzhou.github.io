@@ -31,12 +31,14 @@
           </div>
         </div>
       {% endif %}
-      <div class="foot-item">
-        <div class="foot-item__head">联系</div>
-        <div class="foot-item__body">
-          {{ partial("_partials/macros/group-link.njk", {links: theme.contacts, groupSize: theme.foot.linksRows}) }}
+      {% if theme.contacts %}
+        <div class="foot-item">
+          <div class="foot-item__head">联系</div>
+          <div class="foot-item__body">
+            {{ partial("_partials/macros/group-link.njk", {links: theme.contacts, groupSize: theme.foot.linksRows}) }}
+          </div>
         </div>
-      </div>
+      {% endif %}
     </div>
     <div class="copyright">
       <a href="{{ config.url }}">{{ config.title }}</a>
@@ -56,7 +58,7 @@
           d="M431.292,419.44 L611.558,513.469 L358.327,595.18 L156.600,522.53 L431.292,419.44 Z"/>
       </svg>
       <a href="https://github.com/hooozen/hexo-theme-tranquility">致远</a>&nbsp;驱动
-                      &nbsp;|&nbsp;<a href="https://beian.miit.gov.cn" target="_blank">苏ICP备2025178919号</a>
+                                      &nbsp;|&nbsp;<a href="https://beian.miit.gov.cn" target="_blank">苏ICP备2025178919号</a>
     </div>
   </div>
 </div>
