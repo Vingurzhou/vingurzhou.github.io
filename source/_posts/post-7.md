@@ -1,9 +1,11 @@
 ---
-title: 《高中毕业》
+title: 《C等青春》
 date: 2018-06-29
 category: article
 tag:
     - 自传
+    - 高中
+    - 毕业
 music: /music/2.mp3
 ---
 
