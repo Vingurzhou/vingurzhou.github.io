@@ -74,7 +74,6 @@
     </div>
     <div class="post-content__body">
       <div id="album-gallery" class="album-gallery"></div>
-      <div class="album-pagination" id="album-pagination"></div>
     </div>
   </article>
   <div class="post__foot"></div>
@@ -86,46 +85,47 @@
     const PHOTOS_PER_PAGE = 6;
     let currentTab = 0;
     let currentPage = 1;
-    function renderGallery() {
+    let loading = false;
+    let allLoaded = false;
+    function renderGallery(append = false) {
       const photos = albumSections[currentTab].photos || [];
       const start = (currentPage - 1) * PHOTOS_PER_PAGE;
       const end = start + PHOTOS_PER_PAGE;
       const pagePhotos = photos.slice(start, end);
       const gallery = document.getElementById('album-gallery');
-      gallery.innerHTML = pagePhotos.map(url => `<img src="${url}" alt="photo" loading="lazy">`).join('');
-    }
-    function renderPagination() {
-      const photos = albumSections[currentTab].photos || [];
-      const totalPages = Math.ceil(photos.length / PHOTOS_PER_PAGE) || 1;
-      const pagination = document.getElementById('album-pagination');
-      let html = '';
-      for (let i = 1; i <= totalPages; i++) {
-        html += `<button class="album-page-btn${
-          i === currentPage
-            ? ' active'
-            : ''
-          }" data-page="${i}">${i}</button>`;
+      if (! append) {
+        gallery.innerHTML = '';
       }
-      pagination.innerHTML = html;
-      // 绑定事件
-      Array.from(pagination.querySelectorAll('.album-page-btn')).forEach(btn => {
-        btn.onclick = function () {
-          currentPage = parseInt(this.dataset.page);
-          renderGallery();
-          renderPagination();
-          scrollToGallery();
-        };
-      });
+      gallery.innerHTML += pagePhotos.map(url => `<img src="${url}" alt="photo" loading="lazy">`).join('');
+      // 检查是否全部加载完
+      if (end >= photos.length) {
+        allLoaded = true;
+      } else {
+        allLoaded = false;
+      }
+    }
+    function loadNextPage() {
+      if (loading || allLoaded) 
+        return;
+      
+      loading = true;
+      currentPage++;
+      renderGallery(true);
+      loading = false;
+    }
+    function handleScroll() {
+      const scrollY = window.scrollY || window.pageYOffset;
+      const viewportHeight = window.innerHeight;
+      const fullHeight = document.body.scrollHeight;
+      // 距底部300px时加载
+      if (scrollY + viewportHeight >= fullHeight - 300) {
+        loadNextPage();
+      }
     }
     function renderAll() {
-      renderGallery();
-      renderPagination();
-    }
-    function scrollToGallery() {
-      const gallery = document.getElementById('album-gallery');
-      if (gallery) {
-        gallery.scrollIntoView({behavior: 'smooth', block: 'start'});
-      }
+      currentPage = 1;
+      allLoaded = false;
+      renderGallery(false);
     }
     // tab 切换
     document.addEventListener('DOMContentLoaded', function () {
@@ -137,11 +137,20 @@
             tab.classList.add('active');
             currentTab = idx;
             currentPage = 1;
+            allLoaded = false;
             renderAll();
+            scrollToGallery();
           }
         };
       });
       renderAll();
+      window.addEventListener('scroll', handleScroll);
     });
+    function scrollToGallery() {
+      const gallery = document.getElementById('album-gallery');
+      if (gallery) {
+        gallery.scrollIntoView({behavior: 'smooth', block: 'start'});
+      }
+    }
   </script>
 {% endblock script %}

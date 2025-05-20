@@ -2,6 +2,17 @@
 title: 相册
 layout: album
 sections:
+- title: 小时候
+  photos:
+  - album/小时候/031e8c38d30c62ebed00220a1ebb745c.jpg
+  - album/小时候/2e3519e07996e3486732c4b5632ff630.jpg
+  - album/小时候/37c71dc235c7f355156664ffe116c9d9.jpg
+  - album/小时候/4ea88d9019d44d8023adee8ce18085ea.jpg
+  - album/小时候/5c1ae987a8ab161601a2c64607e70a88.jpg
+  - album/小时候/6950bd6cb2575e536e3c8539c4e3ba4c.jpg
+  - album/小时候/a5724c8d5bd3257d9195c3260131d4d9.jpg
+  - album/小时候/a81cf171c2ff347e6296ec15c8084aa5.jpg
+  - album/小时候/f25a52b817768aa0c96411737e12cc3e.jpg
 - title: 我
   photos:
   - album/我/1a5f8200beb6ff63ef1917a2416d79bd.jpg
@@ -11,7 +22,6 @@ sections:
   - album/我/9e4ded01086785e6e626a9d6c18d68a7.jpg
   - album/我/a9b8f7eee2ab19c75a1629e2a10fc279.jpg
   - album/我/ac91b8e090631067d50d0116d3088664.jpg
-  - album/我/download.jpeg
   - album/我/f6ffce4f8bee7aaca552b4fbd020dfe1.jpg
   - album/我/fd6c7f02ac28ef8c16f551f2ed4f9dc3.jpg
   - album/我/ffd3c8fb33b06d4da80341d33b4b2ae5.jpg
