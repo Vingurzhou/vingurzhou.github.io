@@ -11,7 +11,7 @@ layout: about
 
 ---
 
-* QQ: [786000694](qq:)
+* QQ: [786000694](mqq:)
 * 电话: [+8619952429930](tel:19952429930)
 * 微信: [zwz78600694](weixin:)
 * 邮箱: [zwz0123460218@icloud.com](mailto:zwz0123460218@icloud.com)
