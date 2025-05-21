@@ -1,5 +1,6 @@
 ---
-title: 《0成本让ai拥有搜索功能》
+title: 《0成本实现搜索mcp》
+author: 周文喆
 toc: true
 date: 2025-05-12 14:50:03
 tags:
@@ -10,6 +11,8 @@ tags:
     - mcp
 category: article 
 ---
+找了好多sdk，都需要token,超量付费。于是我琢磨着能不能有白嫖的方法，缺点是扛不住并发，但只是个人的ai助手肯定是够了
+<!-- more -->
 ## 爬虫选型
 
 | 特性                | Requests                          | Selenium                          | Google Custom Search JSON API       |
