@@ -6,11 +6,15 @@ tag:
     - 自传
     - 高中
     - 毕业
-music: /music/2.mp3
 ---
 
 人无法同时拥有青春和对青春的感受
 <!--more-->
+
+<audio controls autoplay loop>
+    <source src="2.mp3" type="audio/mpeg">
+    您的浏览器不支持 audio 元素。
+</audio>
 
 高中三年，我是那种被淹没在人群里的男生。
 

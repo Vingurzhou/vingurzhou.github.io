@@ -6,10 +6,14 @@ tags:
     - 自传
     - 亲情
 category: article
-music: /music/1.mp3
 ---
 离人放逐到边际，仿佛走入第五个季节
 <!-- more -->
+<audio controls autoplay loop>
+    <source src="1.mp3" type="audio/mpeg">
+    您的浏览器不支持 audio 元素。
+</audio>
+
 事情发生在12号，我却是在13号早上才得知。
 
 那天清晨七点，妈妈发来微信：

@@ -20,7 +20,7 @@ cover: /image/3.png
 
 |OS|CPU|GPU|内存|基座模型|知识库|机器学习框架|
 |-|-|-|-|-|-|-|
-|macOS 15.4.1|Apple M1|Apple M1|16G|Qwen3-14B|dify |mlx|
+|macOS 15.4.1|Apple M1|Apple M1|16G|[Qwen3-14B](https://huggingface.co/Qwen/Qwen3-14B)|dify |mlx|
 
 ## 导出微信聊天记录
 
