@@ -9,12 +9,30 @@ category: article
 author: 周文喆
 toc: true
 ---
-博主很喜欢唱歌，但是五音不全，又想听自己唱好听是什么样的，就尝试ai翻唱，但用了全民k歌等应用的ai翻唱效果都不太好，只好自己用ai翻唱了
+博主想唱歌但五音不全，于是打算试试ai翻唱
 <!--more-->
 
 ## 训练模型
 
 ### 采集样本
+
+<audio controls>
+  <source src="vocal_736054932.MP4.reformatted.wav_10.wav" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+### 训练
+
+```shell
+INFO:mi-test:====> Epoch: 1 [2025-05-22 22:18:20] | (0:00:32.595132)
+INFO:mi-test:====> Epoch: 2 [2025-05-22 22:18:50] | (0:00:29.802999)
+...
+INFO:root:Saving model and optimizer state at epoch 20 to ./logs/mi-test/G_380.pth
+INFO:root:Saving model and optimizer state at epoch 20 to ./logs/mi-test/D_380.pth
+INFO:mi-test:====> Epoch: 20 [2025-05-22 22:48:13] | (0:00:30.404951)
+INFO:mi-test:Training is done. The program is closed.
+INFO:mi-test:saving final ckpt:Success.
+```
 
 ## 人声/伴奏分离和混响消除
 
@@ -71,9 +89,7 @@ size=    3096KiB time=00:00:17.97 bitrate=1411.2kbits/s speed=1.59e+03x
 
 ## 模型推理
 
-## 最终效果
-
 <audio controls>
-  <source src="audio.wav" type="audio/mpeg">
+  <source src="audio2.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>

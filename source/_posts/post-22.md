@@ -11,7 +11,7 @@ tags:
     - mcp
 category: article 
 ---
-找了好多sdk，都需要token,超量付费。于是我琢磨着能不能有白嫖的方法，缺点是扛不住并发，但只是个人的ai助手肯定是够了
+找了好多sdk，要么限量要么付费。于是我琢磨了个白嫖的方法，缺点是扛不住并发，但个人用肯定够了
 <!-- more -->
 ## 爬虫选型
 
@@ -61,7 +61,6 @@ with open("output.html", "r", encoding="utf-8") as f:
     soup = BeautifulSoup(f, "html.parser")
 
 results = []
-# 搜索结果一般在 id=center_col 下的 div.tF2Cxc 中
 for item in soup.select("div.tF2Cxc"):
     title_tag = item.select_one("h3")
     link_tag = item.select_one("a")
@@ -77,14 +76,7 @@ for item in soup.select("div.tF2Cxc"):
             "链接": link,
             "摘要": snippet
         })
-
-# 打印清理后的搜索结果
-for idx, r in enumerate(results, 1):
-    print(f"[结果 {idx}]")
-    print("标题:", r["标题"])
-    print("链接:", r["链接"])
-    print("摘要:", r["摘要"])
-    print("-" * 40)
+print(results)
 ```
 
 ## mcp
@@ -134,14 +126,6 @@ if __name__ == '__main__':
 ➜  ~/Code/mcp-server python client.py
 meta=None content=[
 TextContent(type='text', text='{\n  "标题": "OpenAI",\n  "链接": "https://openai.com/",\n  "摘要": "Video showing miniature diorama scenes of toy-like characters interacting in various settings, emphasizing. Your browser does not support the video tag."\n}', annotations=None),
-TextContent(type='text', text='{\n  "标题": "OpenAI - Wikipedia",\n  "链接": "https://en.wikipedia.org/wiki/OpenAI",\n  "摘要": ""\n}', annotations=None), 
-TextContent(type='text', text='{\n  "标题": "How to use OpenAI API and API Key? New Guide (2024) - Addepto",\n  "链接": "https://addepto.com/blog/what-is-an-openai-api-and-how-to-use-it/",\n  "摘要": ""\n}', annotations=None), 
-TextContent(type='text', text='{\n  "标题": "OpenAI\'s nonprofit U-turn puts Microsoft\'s AI dominance in jeopardy",\n  "链接": "https://www.emarketer.com/content/openai-s-nonprofit-u-turn-puts-microsoft-s-ai-dominance-jeopardy",\n  "摘要": ""\n}', annotations=None), 
-TextContent(type='text', text='{\n  "标题": "How to use ChatGPT: A beginner\'s guide to getting started - Zapier",\n  "链接": "https://zapier.com/blog/how-to-use-chatgpt/",\n  "摘要": ""\n}', annotations=None), 
-TextContent(type='text', text='{\n  "标题": "OpenAI",\n  "链接": "https://en.wikipedia.org/wiki/OpenAI",\n  "摘要": "OpenAI, Inc. isan American artificial intelligence (AI) research organizationfounded in December 2015 and headquartered in San Francisco, California."\n}', annotations=None), 
-TextContent(type='text', text='{\n  "标题": "OpenAI",\n  "链接": "https://www.linkedin.com/company/openai",\n  "摘要": "OpenAI isan AI research and deployment companydedicated to ensuring that general-purpose artificial intelligence benefits all of humanity."\n}', annotations=None), 
-TextContent(type='text', text='{\n  "标题": "OpenAI",\n  "链接": "https://www.youtube.com/OpenAI",\n  "摘要": "Say hello toGPT-4o, our new flagship model which can reason across audio, vision, and text in real time."\n}', annotations=None), 
-TextContent(type='text', text='{\n  "标题": "OpenAI - X",\n  "链接": "https://x.com/openai",\n  "摘要": "We\'re excited to announce we\'ve launched several improvements toChatGPT search, and today we\'re starting to roll out a better shopping experience."\n}', annotations=None), 
-TextContent(type='text', text='{\n  "标题": "Azure OpenAI Service",\n  "链接": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",\n  "摘要": "AzureOpenAIService offers industry-leading coding and language AI models that you can fine-tune to your specific needs for a variety of use cases."\n}', annotations=None)
+TextContent(type='text', text='{\n  "标题": "OpenAI - Wikipedia",\n  "链接": "https://en.wikipedia.org/wiki/OpenAI",\n  "摘要": ""\n}', annotations=None)
 ] isError=False
 ```
