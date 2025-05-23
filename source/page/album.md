@@ -16,7 +16,6 @@ sections:
 - title: 我
   photos:
   - album/我/1a5f8200beb6ff63ef1917a2416d79bd.jpg
-  - album/我/1d30e833a61a3fbee2d7ed5595fe06.mp4
   - album/我/584afb84ce6b4d9340170e4318e66463.jpg
   - album/我/8b386bdc515477c93cf230441889e159.jpg
   - album/我/9a5fdc5e3973829507b81b14bd719b45.jpg
@@ -29,6 +28,7 @@ sections:
   - album/我/ac91b8e090631067d50d0116d3088664.jpg
   - album/我/c243812231451ed51c2127169e8085bb.jpg
   - album/我/c90cc93bf8c36841135f0e632b6c3a80.jpg
+  - album/我/cc287176de183faaf6da9dea26c2137b.mp4
   - album/我/d241e8f2ad1d4e58fb891eb255dbd9.mp4
   - album/我/f6ffce4f8bee7aaca552b4fbd020dfe1.jpg
   - album/我/fd6c7f02ac28ef8c16f551f2ed4f9dc3.jpg
