@@ -35,6 +35,7 @@ sections:
   - album/汉堡/2141e272d3bffc0bbf413fb57d570c3a.jpg
   - album/汉堡/45e44ed09f1528a197ec561ffa96d267.jpg
   - album/汉堡/666ab49f44615718dc98835dac0b7705.jpg
+  - album/汉堡/6da0c3222320456b9859facc4ec4d0.mp4
   - album/汉堡/6eafffe96157c2697c8fa7e91e29525f.jpg
   - album/汉堡/97803655f9e8ebfaa684a5e824a90dbd.jpg
   - album/汉堡/a5cfb65b455342740956d1fa525529aa.jpg

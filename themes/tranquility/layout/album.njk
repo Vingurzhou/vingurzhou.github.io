@@ -98,7 +98,18 @@
       if (! append) {
         gallery.innerHTML = '';
       }
-      gallery.innerHTML += pagePhotos.map(url => `<img src="${url}" alt="photo" loading="lazy">`).join('');
+      gallery.innerHTML += pagePhotos.map(item => {
+        let url = item.url || item;
+        let ext = url
+          .split('.')
+          .pop()
+          .toLowerCase();
+        if ((item.type && item.type === 'video') || ['mp4', 'webm', 'ogg'].includes(ext)) {
+          return `<video src="${url}" controls style="width:100%;display:block;margin-bottom:16px;border-radius:8px;box-shadow:0 2px 8px #0001;" preload="metadata"></video>`;
+        } else {
+          return `<img src="${url}" alt="photo" loading="lazy">`;
+        }
+      }).join('');
       // 检查是否全部加载完
       if (end >= photos.length) {
         allLoaded = true;
