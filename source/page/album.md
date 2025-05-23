@@ -16,6 +16,7 @@ sections:
 - title: 我
   photos:
   - album/我/1a5f8200beb6ff63ef1917a2416d79bd.jpg
+  - album/我/1d30e833a61a3fbee2d7ed5595fe06.mp4
   - album/我/584afb84ce6b4d9340170e4318e66463.jpg
   - album/我/8b386bdc515477c93cf230441889e159.jpg
   - album/我/9a5fdc5e3973829507b81b14bd719b45.jpg
@@ -26,6 +27,8 @@ sections:
   - album/我/IMG_6315.JPG
   - album/我/a9b8f7eee2ab19c75a1629e2a10fc279.jpg
   - album/我/ac91b8e090631067d50d0116d3088664.jpg
+  - album/我/c243812231451ed51c2127169e8085bb.jpg
+  - album/我/c90cc93bf8c36841135f0e632b6c3a80.jpg
   - album/我/d241e8f2ad1d4e58fb891eb255dbd9.mp4
   - album/我/f6ffce4f8bee7aaca552b4fbd020dfe1.jpg
   - album/我/fd6c7f02ac28ef8c16f551f2ed4f9dc3.jpg
@@ -49,5 +52,7 @@ sections:
   - album/汉堡/d53bcf536be1a274981cca46cfd0ab.mp4
   - album/汉堡/e6db2e336331426b7c57f8d57e0945.mp4
   - album/汉堡/ecc4462c8795204d2f49df57a9c6a2ab.jpg
+  - album/汉堡/f27277ff64a73b6cbc55d2c874532b5e.jpg
+  - album/汉堡/f4f0d9a0a0bd29766c490520e54815.mp4
   - album/汉堡/f5c9ec75f26ca128635d6f2e0347464a.jpg
 ---
