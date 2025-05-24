@@ -1,5 +1,5 @@
 ---
-title: 《0成本实现搜索mcp》
+title: 《0成本让ai联网》
 author: 周文喆
 toc: true
 date: 2025-05-12 14:50:03
