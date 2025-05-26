@@ -17,17 +17,16 @@ graph TB
 
 * 听力只会放一遍
 * 可以先预测答案
-* 答案必是听力原词
-* 定位不一定是原词
-* 定位有可能是同意境词
+* 答案是听力原词
+* 定位不一定是听力原词，大多是近义词
 
 ## part2
 
 ### 选择题
 
 * 重点可能在题目
-* 答案一般是听力同意境替换
-* 答案一般是转折
+* 答案一般是听力近义词
+* 答案一般在转折
 
 ### 地图题
 
@@ -47,7 +46,8 @@ graph TB
 ### 匹配题
 
 * 理解每个选项意思
-* 听力内找近意词
+* 听力有题目原词
+* 听力有答案近义词
 
 ## 生词
 
@@ -63,13 +63,18 @@ graph TB
 * entry 进入
 * sensors 传感器
 * reuse 重复利用
+* retailer 零售商
+* chef 厨师
+* aware of 发觉
 
-## 同意境词
+## 近义词
 
-* waste ≈ old bread
-* satisfying ≈ pleased ≈ great feeling
-* designs ≈ patterns
-* blind ≈ visually impaired
-* drinks ≈ milk juice
-* medical ≈ drug ≈ hospital ≈ pharmacy
-* weight ≈ how many kilograms
+* waste/old bread
+* satisfying/pleased/great feeling
+* designs/patterns
+* blind/visually impaired
+* drinks/milk juice
+* medical/drug/hospital/pharmacy
+* weight/how many kilograms
+* retailer/shop
+* encourage/proactive
