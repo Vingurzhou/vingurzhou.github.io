@@ -15,10 +15,11 @@ graph TB
 
 ### 填空题
 
-* 听力只会放一遍
 * 可以先预测答案
 * 答案是听力原词
 * 定位不一定是听力原词，大多是近义词
+
+---
 
 ## part2
 
@@ -37,6 +38,8 @@ graph TB
 * in a bend on 在转弯处
 * forks 交叉口
 
+---
+
 ## part3
 
 ### 多选题
@@ -48,6 +51,18 @@ graph TB
 * 理解每个选项意思
 * 听力有题目原词
 * 听力有答案近义词
+
+---
+
+## part 4
+
+### 填空题
+
+* 可以先预测答案
+* 答案是听力原词
+* 定位不一定是听力原词，大多是近义词
+
+---
 
 ## 生词
 
@@ -66,6 +81,8 @@ graph TB
 * retailer 零售商
 * chef 厨师
 * aware of 发觉
+* bog 沼泽
+* soil 土壤
 
 ## 近义词
 
@@ -78,3 +95,4 @@ graph TB
 * weight/how many kilograms
 * retailer/shop
 * encourage/proactive
+* lack of/deficiency
