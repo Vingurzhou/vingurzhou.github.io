@@ -1,5 +1,5 @@
 ---
-title: 《让ai使用电脑》
+title: 《让ai使用工具》
 author: 周文喆
 toc: true
 date: 2025-05-12 14:50:03
@@ -8,8 +8,8 @@ tags:
     - dify
     - mcp
 category: article 
----
-dify因为在docker里所以没有操作电脑的插件，只能自己开发一个mcp来操作
+---   
+dify并不是什么插件都有，只能自己开发一个mcp来实现功能了
 <!-- more -->
 
 ## mcp

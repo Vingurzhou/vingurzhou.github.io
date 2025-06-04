@@ -9,7 +9,9 @@ sections:
   - album/小时候/37c71dc235c7f355156664ffe116c9d9.jpg
   - album/小时候/4ea88d9019d44d8023adee8ce18085ea.jpg
   - album/小时候/5c1ae987a8ab161601a2c64607e70a88.jpg
+  - album/小时候/5ef81ecd5b4d4440b780ed2e47db75bf.jpg
   - album/小时候/6950bd6cb2575e536e3c8539c4e3ba4c.jpg
+  - album/小时候/8141381e0621e13e0b88490e9a73d077.jpg
   - album/小时候/a5724c8d5bd3257d9195c3260131d4d9.jpg
   - album/小时候/a81cf171c2ff347e6296ec15c8084aa5.jpg
   - album/小时候/f25a52b817768aa0c96411737e12cc3e.jpg
@@ -55,4 +57,7 @@ sections:
   - album/汉堡/f27277ff64a73b6cbc55d2c874532b5e.jpg
   - album/汉堡/f4f0d9a0a0bd29766c490520e54815.mp4
   - album/汉堡/f5c9ec75f26ca128635d6f2e0347464a.jpg
+- title: 爸爸
+  photos:
+  - album/爸爸/ca38f4efd4ebd5c0663d8af30e399faa.jpg
 ---
