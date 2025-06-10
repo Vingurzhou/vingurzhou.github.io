@@ -1,5 +1,5 @@
 ---
-title: 《反爬技巧》
+title: 《爬虫通用技巧》
 toc: true
 date: 2025-05-27 22:55:59
 tags:
@@ -17,7 +17,15 @@ password: 200319
 | **合法性**          | 易违反服务条款                   | 易违反服务条款                   | 完全合法                            |
 | **成本**            | 免费                              | 免费                              | 免费 100 次/天，超额付费           |
 
-## 针对url加密
+## 针对ajax接口
+
+```python
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36',
+}
+```
+
+## js加密
 
 ### 启动chrome
 <!-- ## 下载引擎
@@ -43,5 +51,3 @@ driver.get("https://www.google.com/search?q=上海的天气如何")
 with open("output.html", "w", encoding="utf-8") as f:
     f.write(driver.page_source)
 ```
-
-## 针对js加密

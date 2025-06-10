@@ -19,6 +19,16 @@ toc: true
 * 答案大概率在段落首尾和转折
 * 答案按顺序出现
 
+### 填空题
+
+* 答案是文中原词
+
+### 段落匹配
+
+* 最后做
+
+### 多选题
+
 ---
 
 ## 近义词
@@ -28,3 +38,8 @@ toc: true
 * stimuli/reward
 * composed/put together
 * boost/burst
+
+## 生词
+
+rackets 球拍
+pirate 海盗
